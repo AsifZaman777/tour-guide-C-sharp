@@ -1,0 +1,11 @@
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\bin\Debug\TravelGuide.exe.config
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\bin\Debug\TravelGuide.exe
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\bin\Debug\TravelGuide.pdb
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\Login Page.csproj.AssemblyReference.cache
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Properties.Resources.resources
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\Login Page.csproj.GenerateResource.cache
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\Login Page.csproj.CoreCompileInputs.cache
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.exe
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.pdb
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.SignUp.resources
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Login.resources

@@ -1,0 +1,20 @@
+E:\C#\TravelGuide\TravelGuide\bin\Debug\TravelGuide.exe.config
+E:\C#\TravelGuide\TravelGuide\bin\Debug\TravelGuide.exe
+E:\C#\TravelGuide\TravelGuide\bin\Debug\TravelGuide.pdb
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.csproj.AssemblyReference.cache
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Form1.resources
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Properties.Resources.resources
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.csproj.GenerateResource.cache
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.csproj.CoreCompileInputs.cache
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.exe
+E:\C#\TravelGuide\TravelGuide\obj\Debug\TravelGuide.pdb
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\bin\Debug\TravelGuide.exe.config
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\bin\Debug\TravelGuide.exe
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\bin\Debug\TravelGuide.pdb
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.csproj.AssemblyReference.cache
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Form1.resources
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Properties.Resources.resources
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.csproj.GenerateResource.cache
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.csproj.CoreCompileInputs.cache
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.exe
+F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.pdb
