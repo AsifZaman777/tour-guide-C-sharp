@@ -20,3 +20,4 @@ C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.homePage.resources

@@ -117,5 +117,12 @@ namespace TravelGuide
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            homePage home=new homePage();
+            this.Hide();
+            home.Show();
+        }
     }
 }
