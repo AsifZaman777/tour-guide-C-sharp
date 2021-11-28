@@ -109,5 +109,13 @@ namespace TravelGuide
             this.Hide();
             signUp.Show();
         }
+
+
+        ///form closed
+        
+        private void Login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

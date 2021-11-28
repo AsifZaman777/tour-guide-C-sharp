@@ -9,3 +9,14 @@ F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\Tra
 F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.pdb
 F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.SignUp.resources
 F:\C Sharp Workspace\Traveling application\TravelGuide\TravelGuide\obj\Debug\TravelGuide.Login.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\bin\Debug\TravelGuide.exe.config
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\bin\Debug\TravelGuide.exe
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\bin\Debug\TravelGuide.pdb
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Login.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.SignUp.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Properties.Resources.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.GenerateResource.cache
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
