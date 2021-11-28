@@ -19,7 +19,7 @@ namespace TravelGuide
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            coxLabel.BackColor = Color.Transparent;
+            addLabel.BackColor = Color.Transparent;
         }
 
         private void homePage_FormClosed(object sender, FormClosedEventArgs e)

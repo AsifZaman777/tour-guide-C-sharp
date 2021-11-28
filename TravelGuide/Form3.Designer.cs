@@ -30,85 +30,81 @@ namespace TravelGuide
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homePage));
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.coxPanel = new System.Windows.Forms.Panel();
             this.coxLabel = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.labelBus = new System.Windows.Forms.PictureBox();
+            this.nothing = new System.Windows.Forms.PictureBox();
+            this.sajekPanel = new System.Windows.Forms.Panel();
+            this.sajekLabel = new System.Windows.Forms.Label();
+            this.sajekFood = new System.Windows.Forms.PictureBox();
+            this.sajekHotel = new System.Windows.Forms.PictureBox();
+            this.sajekBus = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.n = new System.Windows.Forms.PictureBox();
+            this.busLabel = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.addLabel = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.coxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.labelBus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nothing)).BeginInit();
+            this.sajekPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.sajekFood)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sajekHotel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sajekBus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.n)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.busLabel)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel3
+            // coxPanel
             // 
-            this.panel3.Controls.Add(this.coxLabel);
-            this.panel3.Controls.Add(this.pictureBox10);
-            this.panel3.Controls.Add(this.pictureBox11);
-            this.panel3.Controls.Add(this.pictureBox12);
-            this.panel3.Controls.Add(this.pictureBox13);
-            this.panel3.Location = new System.Drawing.Point(107, 151);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(256, 259);
-            this.panel3.TabIndex = 3;
+            this.coxPanel.Controls.Add(this.coxLabel);
+            this.coxPanel.Controls.Add(this.pictureBox1);
+            this.coxPanel.Controls.Add(this.pictureBox2);
+            this.coxPanel.Controls.Add(this.labelBus);
+            this.coxPanel.Controls.Add(this.nothing);
+            this.coxPanel.Location = new System.Drawing.Point(1058, 151);
+            this.coxPanel.Name = "coxPanel";
+            this.coxPanel.Size = new System.Drawing.Size(256, 259);
+            this.coxPanel.TabIndex = 4;
             // 
             // coxLabel
             // 
@@ -121,73 +117,6 @@ namespace TravelGuide
             this.coxLabel.TabIndex = 4;
             this.coxLabel.Text = "Cox\'S Bazar sea beach";
             this.coxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(182, 198);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(43, 43);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 3;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Coral;
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(99, 198);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 2;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(19, 198);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 1;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(256, 154);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Location = new System.Drawing.Point(1058, 151);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 259);
-            this.panel1.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Azure;
-            this.label1.Location = new System.Drawing.Point(0, 147);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 33);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Cox\'S Bazar sea beach";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
@@ -211,83 +140,83 @@ namespace TravelGuide
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox3
+            // labelBus
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(19, 198);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.labelBus.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.labelBus.Image = ((System.Drawing.Image)(resources.GetObject("labelBus.Image")));
+            this.labelBus.Location = new System.Drawing.Point(19, 198);
+            this.labelBus.Name = "labelBus";
+            this.labelBus.Size = new System.Drawing.Size(41, 43);
+            this.labelBus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.labelBus.TabIndex = 1;
+            this.labelBus.TabStop = false;
             // 
-            // pictureBox4
+            // nothing
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(256, 154);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.nothing.Image = ((System.Drawing.Image)(resources.GetObject("nothing.Image")));
+            this.nothing.Location = new System.Drawing.Point(0, 0);
+            this.nothing.Name = "nothing";
+            this.nothing.Size = new System.Drawing.Size(256, 154);
+            this.nothing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.nothing.TabIndex = 0;
+            this.nothing.TabStop = false;
             // 
-            // panel2
+            // sajekPanel
             // 
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Controls.Add(this.pictureBox7);
-            this.panel2.Controls.Add(this.pictureBox8);
-            this.panel2.Location = new System.Drawing.Point(561, 144);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(256, 259);
-            this.panel2.TabIndex = 5;
+            this.sajekPanel.Controls.Add(this.sajekLabel);
+            this.sajekPanel.Controls.Add(this.sajekFood);
+            this.sajekPanel.Controls.Add(this.sajekHotel);
+            this.sajekPanel.Controls.Add(this.sajekBus);
+            this.sajekPanel.Controls.Add(this.pictureBox8);
+            this.sajekPanel.Location = new System.Drawing.Point(565, 151);
+            this.sajekPanel.Name = "sajekPanel";
+            this.sajekPanel.Size = new System.Drawing.Size(256, 259);
+            this.sajekPanel.TabIndex = 5;
             // 
-            // label2
+            // sajekLabel
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Azure;
-            this.label2.Location = new System.Drawing.Point(0, 147);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(256, 33);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Cox\'S Bazar sea beach";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.sajekLabel.BackColor = System.Drawing.Color.Green;
+            this.sajekLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sajekLabel.ForeColor = System.Drawing.Color.Azure;
+            this.sajekLabel.Location = new System.Drawing.Point(0, 147);
+            this.sajekLabel.Name = "sajekLabel";
+            this.sajekLabel.Size = new System.Drawing.Size(256, 33);
+            this.sajekLabel.TabIndex = 4;
+            this.sajekLabel.Text = "Sajek Valley ";
+            this.sajekLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
+            // sajekFood
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(182, 198);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(43, 43);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
+            this.sajekFood.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.sajekFood.Image = ((System.Drawing.Image)(resources.GetObject("sajekFood.Image")));
+            this.sajekFood.Location = new System.Drawing.Point(182, 198);
+            this.sajekFood.Name = "sajekFood";
+            this.sajekFood.Size = new System.Drawing.Size(43, 43);
+            this.sajekFood.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sajekFood.TabIndex = 3;
+            this.sajekFood.TabStop = false;
             // 
-            // pictureBox6
+            // sajekHotel
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Coral;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(99, 198);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
+            this.sajekHotel.BackColor = System.Drawing.Color.Coral;
+            this.sajekHotel.Image = ((System.Drawing.Image)(resources.GetObject("sajekHotel.Image")));
+            this.sajekHotel.Location = new System.Drawing.Point(99, 198);
+            this.sajekHotel.Name = "sajekHotel";
+            this.sajekHotel.Size = new System.Drawing.Size(41, 43);
+            this.sajekHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sajekHotel.TabIndex = 2;
+            this.sajekHotel.TabStop = false;
             // 
-            // pictureBox7
+            // sajekBus
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(19, 198);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
+            this.sajekBus.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.sajekBus.Image = ((System.Drawing.Image)(resources.GetObject("sajekBus.Image")));
+            this.sajekBus.Location = new System.Drawing.Point(19, 198);
+            this.sajekBus.Name = "sajekBus";
+            this.sajekBus.Size = new System.Drawing.Size(41, 43);
+            this.sajekBus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sajekBus.TabIndex = 1;
+            this.sajekBus.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -299,80 +228,13 @@ namespace TravelGuide
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.pictureBox9);
-            this.panel4.Controls.Add(this.pictureBox14);
-            this.panel4.Controls.Add(this.pictureBox15);
-            this.panel4.Controls.Add(this.pictureBox16);
-            this.panel4.Location = new System.Drawing.Point(107, 427);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(256, 259);
-            this.panel4.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Azure;
-            this.label3.Location = new System.Drawing.Point(0, 147);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(256, 33);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Cox\'S Bazar sea beach";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(182, 198);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(43, 43);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 3;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Coral;
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(99, 198);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 2;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(19, 198);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(41, 43);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 1;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(256, 154);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 0;
-            this.pictureBox16.TabStop = false;
-            // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.pictureBox7);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.pictureBox17);
             this.panel5.Controls.Add(this.pictureBox18);
             this.panel5.Controls.Add(this.pictureBox19);
-            this.panel5.Controls.Add(this.pictureBox20);
             this.panel5.Location = new System.Drawing.Point(565, 438);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(256, 259);
@@ -380,14 +242,14 @@ namespace TravelGuide
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.label4.BackColor = System.Drawing.Color.RoyalBlue;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Azure;
             this.label4.Location = new System.Drawing.Point(0, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(256, 33);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Cox\'S Bazar sea beach";
+            this.label4.Text = "Saint Martin ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox17
@@ -423,23 +285,13 @@ namespace TravelGuide
             this.pictureBox19.TabIndex = 1;
             this.pictureBox19.TabStop = false;
             // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(256, 154);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 0;
-            this.pictureBox20.TabStop = false;
-            // 
             // panel6
             // 
+            this.panel6.Controls.Add(this.pictureBox9);
             this.panel6.Controls.Add(this.label5);
             this.panel6.Controls.Add(this.pictureBox21);
             this.panel6.Controls.Add(this.pictureBox22);
             this.panel6.Controls.Add(this.pictureBox23);
-            this.panel6.Controls.Add(this.pictureBox24);
             this.panel6.Location = new System.Drawing.Point(1058, 438);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(256, 259);
@@ -447,14 +299,14 @@ namespace TravelGuide
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.label5.BackColor = System.Drawing.Color.SeaGreen;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Azure;
             this.label5.Location = new System.Drawing.Point(0, 147);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(256, 33);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Cox\'S Bazar sea beach";
+            this.label5.Text = "Sylhet";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox21
@@ -490,15 +342,133 @@ namespace TravelGuide
             this.pictureBox23.TabIndex = 1;
             this.pictureBox23.TabStop = false;
             // 
-            // pictureBox24
+            // n
             // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(256, 154);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 0;
-            this.pictureBox24.TabStop = false;
+            this.n.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.n.Image = ((System.Drawing.Image)(resources.GetObject("n.Image")));
+            this.n.Location = new System.Drawing.Point(19, 198);
+            this.n.Name = "n";
+            this.n.Size = new System.Drawing.Size(41, 43);
+            this.n.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.n.TabIndex = 1;
+            this.n.TabStop = false;
+            // 
+            // busLabel
+            // 
+            this.busLabel.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.busLabel.Image = ((System.Drawing.Image)(resources.GetObject("busLabel.Image")));
+            this.busLabel.Location = new System.Drawing.Point(19, 198);
+            this.busLabel.Name = "busLabel";
+            this.busLabel.Size = new System.Drawing.Size(41, 43);
+            this.busLabel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.busLabel.TabIndex = 1;
+            this.busLabel.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.addLabel);
+            this.panel1.Location = new System.Drawing.Point(114, 151);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(256, 259);
+            this.panel1.TabIndex = 6;
+            // 
+            // addLabel
+            // 
+            this.addLabel.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.addLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addLabel.ForeColor = System.Drawing.Color.Azure;
+            this.addLabel.Location = new System.Drawing.Point(0, 167);
+            this.addLabel.Name = "addLabel";
+            this.addLabel.Size = new System.Drawing.Size(256, 33);
+            this.addLabel.TabIndex = 4;
+            this.addLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox6);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Controls.Add(this.pictureBox4);
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Location = new System.Drawing.Point(114, 438);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(256, 259);
+            this.panel2.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Azure;
+            this.label1.Location = new System.Drawing.Point(0, 138);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(256, 42);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Bandarban ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(182, 198);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 43);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Coral;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(99, 198);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(19, 198);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(256, 144);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(259, 147);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(-3, 0);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(259, 147);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 7;
+            this.pictureBox9.TabStop = false;
             // 
             // homePage
             // 
@@ -508,86 +478,82 @@ namespace TravelGuide
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1418, 768);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.sajekPanel);
+            this.Controls.Add(this.coxPanel);
             this.Name = "homePage";
             this.Text = "Form3";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.homePage_FormClosed);
             this.Load += new System.EventHandler(this.Form3_Load);
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.panel1.ResumeLayout(false);
+            this.coxPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.labelBus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nothing)).EndInit();
+            this.sajekPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.sajekFood)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sajekHotel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sajekBus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.n)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.busLabel)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel coxPanel;
         private System.Windows.Forms.Label coxLabel;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox labelBus;
+        private System.Windows.Forms.PictureBox nothing;
+        private System.Windows.Forms.Panel sajekPanel;
+        private System.Windows.Forms.Label sajekLabel;
+        private System.Windows.Forms.PictureBox sajekFood;
+        private System.Windows.Forms.PictureBox sajekHotel;
+        private System.Windows.Forms.PictureBox sajekBus;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox n;
+        private System.Windows.Forms.PictureBox busLabel;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label addLabel;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }
