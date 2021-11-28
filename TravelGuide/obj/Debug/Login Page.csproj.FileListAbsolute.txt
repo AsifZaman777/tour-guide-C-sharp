@@ -21,3 +21,15 @@ C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.homePage.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\bin\Debug\TravelGuide.exe.config
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\bin\Debug\TravelGuide.exe
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\bin\Debug\TravelGuide.pdb
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Login.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.SignUp.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.homePage.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Properties.Resources.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
