@@ -192,5 +192,41 @@ namespace TravelGuide
         {
             pictureBox21.BackColor=Color.PaleVioletRed; 
         }
+
+        private void sajekHotel_Click(object sender, EventArgs e)
+        {
+            Hotel hotel = new Hotel();
+            this.Hide();
+            hotel.Show();
+           
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Hotel hotel = new Hotel();
+            this.Hide();
+            hotel.Show();
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            Hotel hotel = new Hotel();
+            this.Hide();
+            hotel.Show();
+        }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            Hotel hotel = new Hotel();
+            this.Hide();
+            hotel.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Hotel hotel = new Hotel();
+            this.Hide();
+            hotel.Show();
+        }
     }
 }
