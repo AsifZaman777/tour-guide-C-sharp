@@ -16,5 +16,10 @@ namespace TravelGuide
         {
             InitializeComponent();
         }
+
+        private void Hotel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
