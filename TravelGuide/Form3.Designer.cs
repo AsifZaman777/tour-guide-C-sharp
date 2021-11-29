@@ -103,7 +103,7 @@ namespace TravelGuide
             this.coxPanel.Controls.Add(this.labelBus);
             this.coxPanel.Controls.Add(this.nothing);
             this.coxPanel.Location = new System.Drawing.Point(1411, 186);
-            this.coxPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.coxPanel.Margin = new System.Windows.Forms.Padding(4);
             this.coxPanel.Name = "coxPanel";
             this.coxPanel.Size = new System.Drawing.Size(341, 319);
             this.coxPanel.TabIndex = 4;
@@ -127,12 +127,13 @@ namespace TravelGuide
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(243, 244);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(57, 53);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
@@ -142,7 +143,7 @@ namespace TravelGuide
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(132, 244);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(55, 53);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -158,7 +159,7 @@ namespace TravelGuide
             this.labelBus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelBus.Image = ((System.Drawing.Image)(resources.GetObject("labelBus.Image")));
             this.labelBus.Location = new System.Drawing.Point(25, 244);
-            this.labelBus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelBus.Margin = new System.Windows.Forms.Padding(4);
             this.labelBus.Name = "labelBus";
             this.labelBus.Size = new System.Drawing.Size(55, 53);
             this.labelBus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -171,7 +172,7 @@ namespace TravelGuide
             // 
             this.nothing.Image = ((System.Drawing.Image)(resources.GetObject("nothing.Image")));
             this.nothing.Location = new System.Drawing.Point(0, 0);
-            this.nothing.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nothing.Margin = new System.Windows.Forms.Padding(4);
             this.nothing.Name = "nothing";
             this.nothing.Size = new System.Drawing.Size(341, 190);
             this.nothing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -186,7 +187,7 @@ namespace TravelGuide
             this.sajekPanel.Controls.Add(this.sajekBus);
             this.sajekPanel.Controls.Add(this.pictureBox8);
             this.sajekPanel.Location = new System.Drawing.Point(753, 186);
-            this.sajekPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sajekPanel.Margin = new System.Windows.Forms.Padding(4);
             this.sajekPanel.Name = "sajekPanel";
             this.sajekPanel.Size = new System.Drawing.Size(341, 319);
             this.sajekPanel.TabIndex = 5;
@@ -210,12 +211,13 @@ namespace TravelGuide
             this.sajekFood.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sajekFood.Image = ((System.Drawing.Image)(resources.GetObject("sajekFood.Image")));
             this.sajekFood.Location = new System.Drawing.Point(243, 244);
-            this.sajekFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sajekFood.Margin = new System.Windows.Forms.Padding(4);
             this.sajekFood.Name = "sajekFood";
             this.sajekFood.Size = new System.Drawing.Size(57, 53);
             this.sajekFood.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sajekFood.TabIndex = 3;
             this.sajekFood.TabStop = false;
+            this.sajekFood.Click += new System.EventHandler(this.sajekFood_Click);
             this.sajekFood.MouseLeave += new System.EventHandler(this.sajekFood_MouseLeave);
             this.sajekFood.MouseHover += new System.EventHandler(this.sajekFood_MouseHover);
             // 
@@ -225,7 +227,7 @@ namespace TravelGuide
             this.sajekHotel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sajekHotel.Image = ((System.Drawing.Image)(resources.GetObject("sajekHotel.Image")));
             this.sajekHotel.Location = new System.Drawing.Point(132, 244);
-            this.sajekHotel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sajekHotel.Margin = new System.Windows.Forms.Padding(4);
             this.sajekHotel.Name = "sajekHotel";
             this.sajekHotel.Size = new System.Drawing.Size(55, 53);
             this.sajekHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -241,7 +243,7 @@ namespace TravelGuide
             this.sajekBus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sajekBus.Image = ((System.Drawing.Image)(resources.GetObject("sajekBus.Image")));
             this.sajekBus.Location = new System.Drawing.Point(25, 244);
-            this.sajekBus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sajekBus.Margin = new System.Windows.Forms.Padding(4);
             this.sajekBus.Name = "sajekBus";
             this.sajekBus.Size = new System.Drawing.Size(55, 53);
             this.sajekBus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -254,7 +256,7 @@ namespace TravelGuide
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(341, 190);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -269,7 +271,7 @@ namespace TravelGuide
             this.panel5.Controls.Add(this.pictureBox18);
             this.panel5.Controls.Add(this.pictureBox19);
             this.panel5.Location = new System.Drawing.Point(753, 539);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(341, 319);
             this.panel5.TabIndex = 5;
@@ -278,7 +280,7 @@ namespace TravelGuide
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(345, 181);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -304,12 +306,13 @@ namespace TravelGuide
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
             this.pictureBox17.Location = new System.Drawing.Point(243, 244);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(57, 53);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 3;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
             this.pictureBox17.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
             this.pictureBox17.MouseHover += new System.EventHandler(this.pictureBox17_MouseHover);
             // 
@@ -319,7 +322,7 @@ namespace TravelGuide
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(132, 244);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(55, 53);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -335,7 +338,7 @@ namespace TravelGuide
             this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(25, 244);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(55, 53);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -352,7 +355,7 @@ namespace TravelGuide
             this.panel6.Controls.Add(this.pictureBox22);
             this.panel6.Controls.Add(this.pictureBox23);
             this.panel6.Location = new System.Drawing.Point(1411, 539);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(341, 319);
             this.panel6.TabIndex = 5;
@@ -361,7 +364,7 @@ namespace TravelGuide
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(-4, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(345, 181);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -387,12 +390,13 @@ namespace TravelGuide
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(243, 244);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(57, 53);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 3;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
             this.pictureBox21.MouseLeave += new System.EventHandler(this.pictureBox21_MouseLeave);
             this.pictureBox21.MouseHover += new System.EventHandler(this.pictureBox21_MouseHover);
             // 
@@ -402,7 +406,7 @@ namespace TravelGuide
             this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(132, 244);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(55, 53);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -418,7 +422,7 @@ namespace TravelGuide
             this.pictureBox23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
             this.pictureBox23.Location = new System.Drawing.Point(25, 244);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(55, 53);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -455,7 +459,7 @@ namespace TravelGuide
             this.panel1.Controls.Add(this.addLabel);
             this.panel1.Controls.Add(this.addButton);
             this.panel1.Location = new System.Drawing.Point(152, 186);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(341, 319);
             this.panel1.TabIndex = 6;
@@ -480,7 +484,7 @@ namespace TravelGuide
             this.addButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.addButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.addButton.Location = new System.Drawing.Point(132, 134);
-            this.addButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addButton.Margin = new System.Windows.Forms.Padding(4);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(67, 55);
             this.addButton.TabIndex = 5;
@@ -496,7 +500,7 @@ namespace TravelGuide
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Location = new System.Drawing.Point(152, 539);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(341, 319);
             this.panel2.TabIndex = 6;
@@ -505,7 +509,7 @@ namespace TravelGuide
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(341, 177);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -531,12 +535,13 @@ namespace TravelGuide
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(243, 244);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(57, 53);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
             this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
@@ -546,7 +551,7 @@ namespace TravelGuide
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(132, 244);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(55, 53);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -562,7 +567,7 @@ namespace TravelGuide
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(25, 244);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(55, 53);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -585,7 +590,7 @@ namespace TravelGuide
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.sajekPanel);
             this.Controls.Add(this.coxPanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "homePage";
             this.Text = "Form3";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.homePage_FormClosed);

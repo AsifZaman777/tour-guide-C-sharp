@@ -228,5 +228,41 @@ namespace TravelGuide
             this.Hide();
             hotel.Show();
         }
+
+        private void sajekFood_Click(object sender, EventArgs e)
+        {
+            Food f1 = new Food();
+            this.Hide();
+            f1.Show();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Food f1 = new Food();
+            this.Hide();
+            f1.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Food f1 = new Food();
+            this.Hide();
+            f1.Show();
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            Food f1 = new Food();
+            this.Hide();
+            f1.Show();
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            Food f1 = new Food();
+            this.Hide();
+            f1.Show();
+        }
     }
 }
