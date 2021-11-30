@@ -344,5 +344,40 @@ namespace TravelGuide
             this.Hide();
             form9.Show();
         }
+
+        private void sajekBus_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            this.Hide();
+            f10.Show();
+        }
+
+        private void labelBus_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            this.Hide();
+            f10.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            this.Hide();
+            f10.Show();
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            this.Hide();
+            f10.Show();
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            Form10 f10 = new Form10();
+            this.Hide();
+            f10.Show();
+        }
     }
 }
