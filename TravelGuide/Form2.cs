@@ -109,6 +109,12 @@ namespace TravelGuide
         {
             cut4.BackColor = Color.IndianRed;
         }
-        
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            this.Hide();
+            login.Show();
+        }
     }
 }

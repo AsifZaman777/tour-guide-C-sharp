@@ -36,5 +36,12 @@ namespace TravelGuide
         {
             Application.Exit();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            homePage homepage = new homePage();
+            this.Hide();
+            homepage.Show();
+        }
     }
 }

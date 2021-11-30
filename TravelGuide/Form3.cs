@@ -40,6 +40,12 @@ namespace TravelGuide
             pictureBox16.BackColor = Color.Transparent;
             pictureBox20.BackColor = Color.Transparent;
 
+            panel4.BackColor = Color.FromArgb(100,0,0,0);
+            label13.BackColor = Color.Transparent;
+            pictureBox24.BackColor=Color.Transparent;
+            label14.BackColor= Color.Transparent;
+
+
         }
 
         private void homePage_FormClosed(object sender, FormClosedEventArgs e)
@@ -378,6 +384,15 @@ namespace TravelGuide
             Form10 f10 = new Form10();
             this.Hide();
             f10.Show();
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1. After login select a package "+ 
+                "\n2. Then select the transport bus package " +
+                "\n3. Then select hotel package as your wish list" +
+                "\n4. You can see restaurants around the area you selected" +
+                "\n5. Then confirm all the stuffs and get your ticket");
         }
     }
 }

@@ -31,5 +31,12 @@ namespace TravelGuide
         {
             button1.BackColor = Color.DeepPink;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            homePage homepage = new homePage();
+            this.Hide();
+            homepage.Show();
+        }
     }
 }

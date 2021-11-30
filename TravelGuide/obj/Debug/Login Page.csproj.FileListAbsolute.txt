@@ -77,3 +77,4 @@ E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\Logi
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\Login Page.csproj.CoreCompileInputs.cache
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form10.resources

@@ -21,5 +21,35 @@ namespace TravelGuide
         {
             Application.Exit();
         }
+
+        private void Hotel_Load(object sender, EventArgs e)
+        {
+            label1.BackColor = Color.Transparent;
+            label2.BackColor=Color.Transparent;
+            label4.BackColor = Color.Transparent;
+            label5.BackColor = Color.Transparent;
+
+            checkBox1.BackColor = Color.Transparent;
+            checkBox2.BackColor = Color.Transparent;
+            checkBox3.BackColor = Color.Transparent;
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            homePage homepage = new homePage();
+            this.Hide();
+            homepage.Show();
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Crimson;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.DeepPink;
+        }
     }
 }
