@@ -10,41 +10,31 @@ using System.Windows.Forms;
 
 namespace TravelGuide
 {
-    public partial class Food : Form
+    public partial class Form5 : Form
     {
-        public Food()
+        public Form5()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Form5_Load(object sender, EventArgs e)
         {
-
+            //nothing
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Form5_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void panel4_Paint(object sender, PaintEventArgs e)
+        private void button1_MouseHover(object sender, EventArgs e)
         {
-
+            button1.BackColor=Color.Crimson;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void button1_MouseLeave(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
+            button1.BackColor = Color.DeepPink;
         }
     }
 }
