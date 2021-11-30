@@ -199,6 +199,7 @@ namespace TravelGuide
             this.nothing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.nothing.TabIndex = 0;
             this.nothing.TabStop = false;
+            this.nothing.Click += new System.EventHandler(this.nothing_Click);
             // 
             // sajekPanel
             // 
@@ -277,6 +278,7 @@ namespace TravelGuide
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // panel5
             // 
@@ -299,6 +301,7 @@ namespace TravelGuide
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // label4
             // 
@@ -377,6 +380,7 @@ namespace TravelGuide
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 7;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // label5
             // 
@@ -513,6 +517,7 @@ namespace TravelGuide
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label1
             // 

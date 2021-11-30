@@ -309,6 +309,40 @@ namespace TravelGuide
             label12.Text = "Exo Food hall";
             panel3.Show();
         }
-       
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form5 form5=new Form5();
+            this.Hide();
+            form5.Show();
+        }
+
+        private void nothing_Click(object sender, EventArgs e) ///Cox's bazaar pictureBox 
+        {
+            Form6 form6=new Form6();
+            this.Hide();
+            form6.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Form7 form7=new Form7();
+            this.Hide();
+            form7.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form8 form8 = new Form8();
+            this.Hide();
+            form8.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            Form9 form9=new Form9();
+            this.Hide();
+            form9.Show();
+        }
     }
 }
