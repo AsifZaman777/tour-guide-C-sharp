@@ -48,3 +48,5 @@ C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\D
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Hotel.resources
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Hotel.resources
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Food.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Hotel.resources
+C:\Users\ASUS\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Food.resources
