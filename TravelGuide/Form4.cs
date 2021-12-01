@@ -26,6 +26,7 @@ namespace TravelGuide
         {
             label1.BackColor = Color.Transparent;
             label2.BackColor=Color.Transparent;
+            label3.BackColor = Color.Transparent;
             label4.BackColor = Color.Transparent;
             label5.BackColor = Color.Transparent;
 

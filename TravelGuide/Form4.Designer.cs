@@ -118,9 +118,9 @@ namespace TravelGuide
             this.checkBox1.Location = new System.Drawing.Point(43, 415);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(133, 26);
+            this.checkBox1.Size = new System.Drawing.Size(205, 26);
             this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "Single Room";
+            this.checkBox1.Text = "Single Room (1200/-)";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // checkBox2
@@ -131,9 +131,9 @@ namespace TravelGuide
             this.checkBox2.Location = new System.Drawing.Point(369, 415);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(202, 26);
+            this.checkBox2.Size = new System.Drawing.Size(269, 26);
             this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Double Deluxe Room";
+            this.checkBox2.Text = "Double Deluxe Room(5000/-)";
             this.checkBox2.UseVisualStyleBackColor = false;
             // 
             // checkBox3
@@ -144,9 +144,9 @@ namespace TravelGuide
             this.checkBox3.Location = new System.Drawing.Point(689, 415);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(128, 26);
+            this.checkBox3.Size = new System.Drawing.Size(200, 26);
             this.checkBox3.TabIndex = 7;
-            this.checkBox3.Text = "Family Suite";
+            this.checkBox3.Text = "Family Suite (8000/-)";
             this.checkBox3.UseVisualStyleBackColor = false;
             // 
             // label2

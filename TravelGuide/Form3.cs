@@ -263,7 +263,7 @@ namespace TravelGuide
 
         private void sajekFood_Click(object sender, EventArgs e)
         {
-            panel3.Location = new Point(740, 12);
+            panel3.Location = new Point(740, 60);
             label3.Text = "Helipad Hotel";
             label6.Text = "Winter Restaurant";
             label7.Text = "Cloud Restaurant";
@@ -274,7 +274,7 @@ namespace TravelGuide
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            panel3.Location = new Point(1143, 12);
+            panel3.Location = new Point(1143, 60);
             label3.Text = "Sea View Hotel";
             label6.Text = "Eastern Restaurant";
             label7.Text = "Hill View Restaurant";

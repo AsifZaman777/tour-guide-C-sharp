@@ -82,11 +82,11 @@ namespace TravelGuide
             this.label2 = new System.Windows.Forms.Label();
             this.addLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.addButton = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.coxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -570,9 +570,9 @@ namespace TravelGuide
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(747, 12);
+            this.panel3.Location = new System.Drawing.Point(747, 87);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(287, 340);
+            this.panel3.Size = new System.Drawing.Size(287, 323);
             this.panel3.TabIndex = 7;
             // 
             // pictureBox20
@@ -785,50 +785,6 @@ namespace TravelGuide
             this.panel1.Size = new System.Drawing.Size(256, 259);
             this.panel1.TabIndex = 6;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label14);
-            this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.pictureBox24);
-            this.panel4.Location = new System.Drawing.Point(0, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1417, 100);
-            this.panel4.TabIndex = 8;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(1139, 28);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(59, 48);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 9;
-            this.pictureBox24.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Font = new System.Drawing.Font("Arial Black", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(1214, 28);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(161, 33);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "User Name";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Font = new System.Drawing.Font("Arial Black", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(86, 7);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(539, 90);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "BD Tour Guide";
-            // 
             // addButton
             // 
             this.addButton.BackColor = System.Drawing.Color.Linen;
@@ -843,6 +799,50 @@ namespace TravelGuide
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             this.addButton.MouseLeave += new System.EventHandler(this.addButton_MouseLeave);
             this.addButton.MouseHover += new System.EventHandler(this.addButton_MouseHover);
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.pictureBox24);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Location = new System.Drawing.Point(0, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1418, 79);
+            this.panel4.TabIndex = 8;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label14.Font = new System.Drawing.Font("Arial Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(86, 7);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(404, 68);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "BD Tour Guide";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label13.Font = new System.Drawing.Font("Arial Black", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(1234, 10);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(161, 33);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "User Name";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(1159, 10);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(59, 48);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 12;
+            this.pictureBox24.TabStop = false;
             // 
             // homePage
             // 
@@ -964,9 +964,9 @@ namespace TravelGuide
         private System.Windows.Forms.Label addLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button addButton;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox pictureBox24;
     }
 }
