@@ -22,6 +22,10 @@ namespace TravelGuide
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             pictureBox3.Visible = false;
+            panel1.Show();
+            label5.Text = "Non-AC  : 800/-";
+            label6.Text = "AC  : 1200/-";
+           
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -29,7 +33,12 @@ namespace TravelGuide
             pictureBox3.Visible = true;
             pictureBox2.Visible = false;
             pictureBox1.Visible = false;
-            
+            panel1.Show();
+            label5.Text = "Non-AC : 1000/-";
+            label6.Text = "AC  : 1400/-";
+
+
+
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -37,6 +46,10 @@ namespace TravelGuide
             pictureBox1.Visible = true;
             pictureBox2.Visible = false;
             pictureBox3.Visible = false;
+            panel1.Show();
+            label5.Text = "Non-AC  : 900/-";
+            label6.Text = "AC : 1400/-";
+
         }
 
         private void button1_MouseHover(object sender, EventArgs e)
@@ -59,6 +72,11 @@ namespace TravelGuide
         private void Form10_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form10_Load(object sender, EventArgs e)
+        {
+            panel1.Hide();
         }
     }
 }
