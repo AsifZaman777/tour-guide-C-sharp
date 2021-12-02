@@ -381,9 +381,12 @@ namespace TravelGuide
 
         private void pictureBox23_Click(object sender, EventArgs e)
         {
-            Form10 f10 = new Form10();
+            //Form10 f10 = new Form10();
+            //this.Hide();
+            //f10.Show();
+            Form11 f11 = new Form11();
             this.Hide();
-            f10.Show();
+            f11.Show();
         }
 
         private void addButton_Click(object sender, EventArgs e)
