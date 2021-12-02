@@ -84,9 +84,10 @@ namespace TravelGuide
             this.panel1 = new System.Windows.Forms.Panel();
             this.addButton = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.coxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -126,6 +127,7 @@ namespace TravelGuide
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.SuspendLayout();
             // 
             // coxPanel
@@ -135,9 +137,10 @@ namespace TravelGuide
             this.coxPanel.Controls.Add(this.pictureBox2);
             this.coxPanel.Controls.Add(this.labelBus);
             this.coxPanel.Controls.Add(this.nothing);
-            this.coxPanel.Location = new System.Drawing.Point(1058, 151);
+            this.coxPanel.Location = new System.Drawing.Point(1411, 186);
+            this.coxPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.coxPanel.Name = "coxPanel";
-            this.coxPanel.Size = new System.Drawing.Size(256, 259);
+            this.coxPanel.Size = new System.Drawing.Size(341, 319);
             this.coxPanel.TabIndex = 4;
             // 
             // coxLabel
@@ -145,9 +148,10 @@ namespace TravelGuide
             this.coxLabel.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.coxLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.coxLabel.ForeColor = System.Drawing.Color.Azure;
-            this.coxLabel.Location = new System.Drawing.Point(0, 147);
+            this.coxLabel.Location = new System.Drawing.Point(0, 181);
+            this.coxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.coxLabel.Name = "coxLabel";
-            this.coxLabel.Size = new System.Drawing.Size(256, 33);
+            this.coxLabel.Size = new System.Drawing.Size(341, 41);
             this.coxLabel.TabIndex = 4;
             this.coxLabel.Text = "Cox\'S Bazar sea beach";
             this.coxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -157,9 +161,10 @@ namespace TravelGuide
             this.pictureBox1.BackColor = System.Drawing.Color.PaleVioletRed;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(182, 198);
+            this.pictureBox1.Location = new System.Drawing.Point(243, 244);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(43, 43);
+            this.pictureBox1.Size = new System.Drawing.Size(57, 53);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -172,9 +177,10 @@ namespace TravelGuide
             this.pictureBox2.BackColor = System.Drawing.Color.Coral;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(99, 198);
+            this.pictureBox2.Location = new System.Drawing.Point(132, 244);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox2.Size = new System.Drawing.Size(55, 53);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -187,9 +193,10 @@ namespace TravelGuide
             this.labelBus.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.labelBus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelBus.Image = ((System.Drawing.Image)(resources.GetObject("labelBus.Image")));
-            this.labelBus.Location = new System.Drawing.Point(19, 198);
+            this.labelBus.Location = new System.Drawing.Point(25, 244);
+            this.labelBus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelBus.Name = "labelBus";
-            this.labelBus.Size = new System.Drawing.Size(41, 43);
+            this.labelBus.Size = new System.Drawing.Size(55, 53);
             this.labelBus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.labelBus.TabIndex = 1;
             this.labelBus.TabStop = false;
@@ -201,8 +208,9 @@ namespace TravelGuide
             // 
             this.nothing.Image = ((System.Drawing.Image)(resources.GetObject("nothing.Image")));
             this.nothing.Location = new System.Drawing.Point(0, 0);
+            this.nothing.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nothing.Name = "nothing";
-            this.nothing.Size = new System.Drawing.Size(256, 154);
+            this.nothing.Size = new System.Drawing.Size(341, 190);
             this.nothing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.nothing.TabIndex = 0;
             this.nothing.TabStop = false;
@@ -215,9 +223,10 @@ namespace TravelGuide
             this.sajekPanel.Controls.Add(this.sajekHotel);
             this.sajekPanel.Controls.Add(this.sajekBus);
             this.sajekPanel.Controls.Add(this.pictureBox8);
-            this.sajekPanel.Location = new System.Drawing.Point(565, 151);
+            this.sajekPanel.Location = new System.Drawing.Point(753, 186);
+            this.sajekPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sajekPanel.Name = "sajekPanel";
-            this.sajekPanel.Size = new System.Drawing.Size(256, 259);
+            this.sajekPanel.Size = new System.Drawing.Size(341, 319);
             this.sajekPanel.TabIndex = 5;
             // 
             // sajekLabel
@@ -225,9 +234,10 @@ namespace TravelGuide
             this.sajekLabel.BackColor = System.Drawing.Color.Green;
             this.sajekLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sajekLabel.ForeColor = System.Drawing.Color.Azure;
-            this.sajekLabel.Location = new System.Drawing.Point(0, 147);
+            this.sajekLabel.Location = new System.Drawing.Point(0, 181);
+            this.sajekLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sajekLabel.Name = "sajekLabel";
-            this.sajekLabel.Size = new System.Drawing.Size(256, 33);
+            this.sajekLabel.Size = new System.Drawing.Size(341, 41);
             this.sajekLabel.TabIndex = 4;
             this.sajekLabel.Text = "Sajek Valley ";
             this.sajekLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -237,9 +247,10 @@ namespace TravelGuide
             this.sajekFood.BackColor = System.Drawing.Color.PaleVioletRed;
             this.sajekFood.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sajekFood.Image = ((System.Drawing.Image)(resources.GetObject("sajekFood.Image")));
-            this.sajekFood.Location = new System.Drawing.Point(182, 198);
+            this.sajekFood.Location = new System.Drawing.Point(243, 244);
+            this.sajekFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sajekFood.Name = "sajekFood";
-            this.sajekFood.Size = new System.Drawing.Size(43, 43);
+            this.sajekFood.Size = new System.Drawing.Size(57, 53);
             this.sajekFood.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sajekFood.TabIndex = 3;
             this.sajekFood.TabStop = false;
@@ -252,9 +263,10 @@ namespace TravelGuide
             this.sajekHotel.BackColor = System.Drawing.Color.Coral;
             this.sajekHotel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sajekHotel.Image = ((System.Drawing.Image)(resources.GetObject("sajekHotel.Image")));
-            this.sajekHotel.Location = new System.Drawing.Point(99, 198);
+            this.sajekHotel.Location = new System.Drawing.Point(132, 244);
+            this.sajekHotel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sajekHotel.Name = "sajekHotel";
-            this.sajekHotel.Size = new System.Drawing.Size(41, 43);
+            this.sajekHotel.Size = new System.Drawing.Size(55, 53);
             this.sajekHotel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sajekHotel.TabIndex = 2;
             this.sajekHotel.TabStop = false;
@@ -267,9 +279,10 @@ namespace TravelGuide
             this.sajekBus.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.sajekBus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sajekBus.Image = ((System.Drawing.Image)(resources.GetObject("sajekBus.Image")));
-            this.sajekBus.Location = new System.Drawing.Point(19, 198);
+            this.sajekBus.Location = new System.Drawing.Point(25, 244);
+            this.sajekBus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sajekBus.Name = "sajekBus";
-            this.sajekBus.Size = new System.Drawing.Size(41, 43);
+            this.sajekBus.Size = new System.Drawing.Size(55, 53);
             this.sajekBus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sajekBus.TabIndex = 1;
             this.sajekBus.TabStop = false;
@@ -281,8 +294,9 @@ namespace TravelGuide
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(256, 154);
+            this.pictureBox8.Size = new System.Drawing.Size(341, 190);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
@@ -295,17 +309,19 @@ namespace TravelGuide
             this.panel5.Controls.Add(this.pictureBox17);
             this.panel5.Controls.Add(this.pictureBox18);
             this.panel5.Controls.Add(this.pictureBox19);
-            this.panel5.Location = new System.Drawing.Point(565, 438);
+            this.panel5.Location = new System.Drawing.Point(753, 539);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(256, 259);
+            this.panel5.Size = new System.Drawing.Size(341, 319);
             this.panel5.TabIndex = 5;
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(259, 147);
+            this.pictureBox7.Size = new System.Drawing.Size(345, 181);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
@@ -316,9 +332,10 @@ namespace TravelGuide
             this.label4.BackColor = System.Drawing.Color.RoyalBlue;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Azure;
-            this.label4.Location = new System.Drawing.Point(0, 147);
+            this.label4.Location = new System.Drawing.Point(0, 181);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(256, 33);
+            this.label4.Size = new System.Drawing.Size(341, 41);
             this.label4.TabIndex = 4;
             this.label4.Text = "Saint Martin ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -328,9 +345,10 @@ namespace TravelGuide
             this.pictureBox17.BackColor = System.Drawing.Color.PaleVioletRed;
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(182, 198);
+            this.pictureBox17.Location = new System.Drawing.Point(243, 244);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(43, 43);
+            this.pictureBox17.Size = new System.Drawing.Size(57, 53);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 3;
             this.pictureBox17.TabStop = false;
@@ -343,9 +361,10 @@ namespace TravelGuide
             this.pictureBox18.BackColor = System.Drawing.Color.Coral;
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(99, 198);
+            this.pictureBox18.Location = new System.Drawing.Point(132, 244);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox18.Size = new System.Drawing.Size(55, 53);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 2;
             this.pictureBox18.TabStop = false;
@@ -358,9 +377,10 @@ namespace TravelGuide
             this.pictureBox19.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(19, 198);
+            this.pictureBox19.Location = new System.Drawing.Point(25, 244);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox19.Size = new System.Drawing.Size(55, 53);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 1;
             this.pictureBox19.TabStop = false;
@@ -375,17 +395,19 @@ namespace TravelGuide
             this.panel6.Controls.Add(this.pictureBox21);
             this.panel6.Controls.Add(this.pictureBox22);
             this.panel6.Controls.Add(this.pictureBox23);
-            this.panel6.Location = new System.Drawing.Point(1058, 438);
+            this.panel6.Location = new System.Drawing.Point(1411, 539);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(256, 259);
+            this.panel6.Size = new System.Drawing.Size(341, 319);
             this.panel6.TabIndex = 5;
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(-3, 0);
+            this.pictureBox9.Location = new System.Drawing.Point(-4, 0);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(259, 147);
+            this.pictureBox9.Size = new System.Drawing.Size(345, 181);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 7;
             this.pictureBox9.TabStop = false;
@@ -396,9 +418,10 @@ namespace TravelGuide
             this.label5.BackColor = System.Drawing.Color.SeaGreen;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Azure;
-            this.label5.Location = new System.Drawing.Point(0, 147);
+            this.label5.Location = new System.Drawing.Point(0, 181);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(256, 33);
+            this.label5.Size = new System.Drawing.Size(341, 41);
             this.label5.TabIndex = 4;
             this.label5.Text = "Sylhet";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -408,9 +431,10 @@ namespace TravelGuide
             this.pictureBox21.BackColor = System.Drawing.Color.PaleVioletRed;
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(182, 198);
+            this.pictureBox21.Location = new System.Drawing.Point(243, 244);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(43, 43);
+            this.pictureBox21.Size = new System.Drawing.Size(57, 53);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 3;
             this.pictureBox21.TabStop = false;
@@ -423,9 +447,10 @@ namespace TravelGuide
             this.pictureBox22.BackColor = System.Drawing.Color.Coral;
             this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(99, 198);
+            this.pictureBox22.Location = new System.Drawing.Point(132, 244);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox22.Size = new System.Drawing.Size(55, 53);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 2;
             this.pictureBox22.TabStop = false;
@@ -438,9 +463,10 @@ namespace TravelGuide
             this.pictureBox23.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.pictureBox23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(19, 198);
+            this.pictureBox23.Location = new System.Drawing.Point(25, 244);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox23.Size = new System.Drawing.Size(55, 53);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 1;
             this.pictureBox23.TabStop = false;
@@ -477,17 +503,19 @@ namespace TravelGuide
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Location = new System.Drawing.Point(114, 438);
+            this.panel2.Location = new System.Drawing.Point(152, 539);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(256, 259);
+            this.panel2.Size = new System.Drawing.Size(341, 319);
             this.panel2.TabIndex = 6;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(256, 144);
+            this.pictureBox6.Size = new System.Drawing.Size(341, 177);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
@@ -498,9 +526,10 @@ namespace TravelGuide
             this.label1.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Azure;
-            this.label1.Location = new System.Drawing.Point(0, 138);
+            this.label1.Location = new System.Drawing.Point(0, 170);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 42);
+            this.label1.Size = new System.Drawing.Size(341, 52);
             this.label1.TabIndex = 4;
             this.label1.Text = "Bandarban ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -510,9 +539,10 @@ namespace TravelGuide
             this.pictureBox3.BackColor = System.Drawing.Color.PaleVioletRed;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(182, 198);
+            this.pictureBox3.Location = new System.Drawing.Point(243, 244);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(43, 43);
+            this.pictureBox3.Size = new System.Drawing.Size(57, 53);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -525,9 +555,10 @@ namespace TravelGuide
             this.pictureBox4.BackColor = System.Drawing.Color.Coral;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(99, 198);
+            this.pictureBox4.Location = new System.Drawing.Point(132, 244);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox4.Size = new System.Drawing.Size(55, 53);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -540,9 +571,10 @@ namespace TravelGuide
             this.pictureBox5.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(19, 198);
+            this.pictureBox5.Location = new System.Drawing.Point(25, 244);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(41, 43);
+            this.pictureBox5.Size = new System.Drawing.Size(55, 53);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
@@ -570,17 +602,19 @@ namespace TravelGuide
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(747, 87);
+            this.panel3.Location = new System.Drawing.Point(996, 107);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(287, 323);
+            this.panel3.Size = new System.Drawing.Size(383, 398);
             this.panel3.TabIndex = 7;
             // 
             // pictureBox20
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(169, 282);
+            this.pictureBox20.Location = new System.Drawing.Point(225, 347);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox20.Size = new System.Drawing.Size(155, 58);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox20.TabIndex = 15;
             this.pictureBox20.TabStop = false;
@@ -588,9 +622,10 @@ namespace TravelGuide
             // pictureBox16
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(169, 248);
+            this.pictureBox16.Location = new System.Drawing.Point(225, 305);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox16.Size = new System.Drawing.Size(155, 58);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox16.TabIndex = 14;
             this.pictureBox16.TabStop = false;
@@ -598,9 +633,10 @@ namespace TravelGuide
             // pictureBox15
             // 
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(169, 221);
+            this.pictureBox15.Location = new System.Drawing.Point(225, 272);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox15.Size = new System.Drawing.Size(155, 58);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox15.TabIndex = 13;
             this.pictureBox15.TabStop = false;
@@ -608,9 +644,10 @@ namespace TravelGuide
             // pictureBox14
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(169, 187);
+            this.pictureBox14.Location = new System.Drawing.Point(225, 230);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox14.Size = new System.Drawing.Size(155, 58);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 12;
             this.pictureBox14.TabStop = false;
@@ -618,9 +655,10 @@ namespace TravelGuide
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(169, 157);
+            this.pictureBox13.Location = new System.Drawing.Point(225, 193);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox13.Size = new System.Drawing.Size(155, 58);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 11;
             this.pictureBox13.TabStop = false;
@@ -628,9 +666,10 @@ namespace TravelGuide
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(169, 125);
+            this.pictureBox12.Location = new System.Drawing.Point(225, 154);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox12.Size = new System.Drawing.Size(155, 58);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 10;
             this.pictureBox12.TabStop = false;
@@ -638,9 +677,10 @@ namespace TravelGuide
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(169, 90);
+            this.pictureBox11.Location = new System.Drawing.Point(225, 111);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox11.Size = new System.Drawing.Size(155, 58);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 9;
             this.pictureBox11.TabStop = false;
@@ -648,9 +688,10 @@ namespace TravelGuide
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(169, 56);
+            this.pictureBox10.Location = new System.Drawing.Point(225, 69);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(116, 47);
+            this.pictureBox10.Size = new System.Drawing.Size(155, 58);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 8;
             this.pictureBox10.TabStop = false;
@@ -661,9 +702,10 @@ namespace TravelGuide
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(8, 296);
+            this.label12.Location = new System.Drawing.Point(11, 364);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(107, 18);
+            this.label12.Size = new System.Drawing.Size(131, 23);
             this.label12.TabIndex = 8;
             this.label12.Text = "Hill Side Food";
             // 
@@ -673,9 +715,10 @@ namespace TravelGuide
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(8, 268);
+            this.label11.Location = new System.Drawing.Point(11, 330);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(152, 18);
+            this.label11.Size = new System.Drawing.Size(192, 23);
             this.label11.TabIndex = 7;
             this.label11.Text = "Bhorta Bhaji Restora";
             // 
@@ -685,9 +728,10 @@ namespace TravelGuide
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(8, 238);
+            this.label10.Location = new System.Drawing.Point(11, 293);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(96, 18);
+            this.label10.Size = new System.Drawing.Size(122, 23);
             this.label10.TabIndex = 6;
             this.label10.Text = "Mama Hotel ";
             // 
@@ -697,9 +741,10 @@ namespace TravelGuide
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(8, 206);
+            this.label9.Location = new System.Drawing.Point(11, 254);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(121, 18);
+            this.label9.Size = new System.Drawing.Size(152, 23);
             this.label9.TabIndex = 5;
             this.label9.Text = "Raja Mama Cha";
             // 
@@ -709,9 +754,10 @@ namespace TravelGuide
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(8, 175);
+            this.label8.Location = new System.Drawing.Point(11, 215);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(114, 18);
+            this.label8.Size = new System.Drawing.Size(140, 23);
             this.label8.TabIndex = 4;
             this.label8.Text = "Chicken House";
             // 
@@ -721,9 +767,10 @@ namespace TravelGuide
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(8, 139);
+            this.label7.Location = new System.Drawing.Point(11, 171);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(125, 18);
+            this.label7.Size = new System.Drawing.Size(157, 23);
             this.label7.TabIndex = 3;
             this.label7.Text = "Munna Food Hall";
             // 
@@ -733,9 +780,10 @@ namespace TravelGuide
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(8, 104);
+            this.label6.Location = new System.Drawing.Point(11, 128);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 18);
+            this.label6.Size = new System.Drawing.Size(154, 23);
             this.label6.TabIndex = 2;
             this.label6.Text = "Sajek restaurant";
             // 
@@ -745,9 +793,10 @@ namespace TravelGuide
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(8, 72);
+            this.label3.Location = new System.Drawing.Point(11, 89);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 18);
+            this.label3.Size = new System.Drawing.Size(209, 23);
             this.label3.TabIndex = 1;
             this.label3.Text = "Velley side Food Court";
             // 
@@ -757,9 +806,10 @@ namespace TravelGuide
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(26, 18);
+            this.label2.Location = new System.Drawing.Point(35, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 22);
+            this.label2.Size = new System.Drawing.Size(273, 29);
             this.label2.TabIndex = 0;
             this.label2.Text = "Top Rated Restaurants";
             // 
@@ -769,9 +819,10 @@ namespace TravelGuide
             this.addLabel.BackColor = System.Drawing.Color.White;
             this.addLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addLabel.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.addLabel.Location = new System.Drawing.Point(68, 157);
+            this.addLabel.Location = new System.Drawing.Point(91, 193);
+            this.addLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.addLabel.Name = "addLabel";
-            this.addLabel.Size = new System.Drawing.Size(104, 19);
+            this.addLabel.Size = new System.Drawing.Size(128, 24);
             this.addLabel.TabIndex = 6;
             this.addLabel.Text = "User Manual";
             // 
@@ -780,9 +831,10 @@ namespace TravelGuide
             this.panel1.BackColor = System.Drawing.Color.Azure;
             this.panel1.Controls.Add(this.addLabel);
             this.panel1.Controls.Add(this.addButton);
-            this.panel1.Location = new System.Drawing.Point(114, 151);
+            this.panel1.Location = new System.Drawing.Point(152, 186);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 259);
+            this.panel1.Size = new System.Drawing.Size(341, 319);
             this.panel1.TabIndex = 6;
             // 
             // addButton
@@ -791,9 +843,10 @@ namespace TravelGuide
             this.addButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addButton.BackgroundImage")));
             this.addButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.addButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addButton.Location = new System.Drawing.Point(89, 92);
+            this.addButton.Location = new System.Drawing.Point(119, 113);
+            this.addButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(61, 55);
+            this.addButton.Size = new System.Drawing.Size(81, 68);
             this.addButton.TabIndex = 5;
             this.addButton.UseVisualStyleBackColor = false;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
@@ -806,21 +859,10 @@ namespace TravelGuide
             this.panel4.Controls.Add(this.pictureBox24);
             this.panel4.Controls.Add(this.label14);
             this.panel4.Location = new System.Drawing.Point(0, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1418, 79);
+            this.panel4.Size = new System.Drawing.Size(1891, 97);
             this.panel4.TabIndex = 8;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Font = new System.Drawing.Font("Arial Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(86, 7);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(404, 68);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "BD Tour Guide";
             // 
             // label13
             // 
@@ -828,30 +870,59 @@ namespace TravelGuide
             this.label13.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label13.Font = new System.Drawing.Font("Arial Black", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(1234, 10);
+            this.label13.Location = new System.Drawing.Point(1645, 12);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(161, 33);
+            this.label13.Size = new System.Drawing.Size(199, 42);
             this.label13.TabIndex = 13;
             this.label13.Text = "User Name";
             // 
             // pictureBox24
             // 
             this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(1159, 10);
+            this.pictureBox24.Location = new System.Drawing.Point(1545, 12);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(59, 48);
+            this.pictureBox24.Size = new System.Drawing.Size(79, 59);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 12;
             this.pictureBox24.TabStop = false;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label14.Font = new System.Drawing.Font("Arial Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(115, 9);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(507, 85);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "BD Tour Guide";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(369, 84);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(83, 74);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 21;
+            this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox25_Click);
+            // 
             // homePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1418, 768);
+            this.ClientSize = new System.Drawing.Size(1891, 945);
+            this.Controls.Add(this.pictureBox25);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -860,6 +931,7 @@ namespace TravelGuide
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.sajekPanel);
             this.Controls.Add(this.coxPanel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "homePage";
             this.Text = "Home Page";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.homePage_FormClosed);
@@ -906,6 +978,7 @@ namespace TravelGuide
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -968,5 +1041,6 @@ namespace TravelGuide
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox25;
     }
 }

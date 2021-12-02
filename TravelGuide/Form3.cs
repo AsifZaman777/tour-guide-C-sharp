@@ -397,5 +397,12 @@ namespace TravelGuide
                 "\n4. You can see restaurants around the area you selected" +
                 "\n5. Then confirm all the stuffs and get your ticket");
         }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            Login loginpage = new Login();
+            this.Hide();
+            loginpage.Show();
+        }
     }
 }

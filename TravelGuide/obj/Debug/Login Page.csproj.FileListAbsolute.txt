@@ -78,10 +78,8 @@ E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\Logi
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
 C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form10.resources
-<<<<<<< HEAD
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form11.resources
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form12.resources
-=======
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form10.resources
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form5.resources
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form6.resources
@@ -89,3 +87,5 @@ C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form7
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form8.resources
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form9.resources
 >>>>>>> 5e9923c5295c27acdf6843e199c521adceec04fa
+C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form11.resources
+C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form12.resources
