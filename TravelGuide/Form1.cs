@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace TravelGuide
 {
     public partial class Login : Form
     {
+        string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
+
         public Login()
         {
             InitializeComponent();
@@ -48,12 +51,12 @@ namespace TravelGuide
 
         private void button4_MouseHover(object sender, EventArgs e)
         {
-            button4.BackColor = Color.Crimson;
+            btnshowpass.BackColor = Color.Crimson;
         }
 
         private void button4_MouseLeave(object sender, EventArgs e)
         {
-            button4.BackColor = Color.White;
+            btnshowpass.BackColor = Color.White;
         }
 
         private void button2_MouseHover(object sender, EventArgs e)
@@ -135,6 +138,80 @@ namespace TravelGuide
             {
                 textBox2.UseSystemPasswordChar = false;
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+           /* if (textBox1.Text == "")
+            {
+                textBox1.Text = "type your email";
+
+            }*/
+            /*if (string.IsNullOrEmpty(textBox1.Text) == true)
+            {
+                textBox1.Focus();
+                errorProvider1.SetError(this.textBox1, "This section canncon be empty !");
+            }
+            else */if (Regex.IsMatch(textBox1.Text, pattern) == false)
+            {
+
+                errorProvider2.SetError(this.textBox1, "Invalid Email !");
+                textBox1.Focus();
+            }
+            
+
+            else
+            {
+                errorProvider1.Clear();
+            }
+        }
+
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox2.Text) == true)
+            {
+                errorProvider3.SetError(this.textBox2, "This section canncon be empty !");
+                textBox1.Focus();
+            }
+            else
+            {
+                errorProvider2.Clear();
+            }
+        }
+
+        private void btnexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnshowpass_Click(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '*')
+            {
+                textBox2.PasswordChar = '\0';
+            }
+            else if (textBox2.PasswordChar == '\0')
+            {
+                textBox2.PasswordChar = '*';
+            }
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "type your email") {
+                textBox1.Text = "";
+               textBox1.ForeColor = Color.Black;
+            }
+        }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            errorProvider2.Clear();
         }
     }
 }
