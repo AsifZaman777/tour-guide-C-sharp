@@ -153,11 +153,11 @@ namespace TravelGuide
 
 <<<<<<< HEAD
             }
-           */if (string.IsNullOrEmpty(textBox1.Text) == true)
+           if (string.IsNullOrEmpty(textBox1.Text) == true)
 =======
             }*/
             if (string.IsNullOrEmpty(textBox1.Text) == true)
->>>>>>> 1247ce5bd96a634ed99a5f7fce10d840f65edb35
+//>>>>>>> 1247ce5bd96a634ed99a5f7fce10d840f65edb35
             {
                 textBox1.Focus();
                 errorProvider1.SetError(this.textBox1, "This section cannot be empty !");
