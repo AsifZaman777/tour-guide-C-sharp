@@ -151,11 +151,16 @@ namespace TravelGuide
             {
                 textBox1.Text = "type your email";
 
+<<<<<<< HEAD
             }
            */if (string.IsNullOrEmpty(textBox1.Text) == true)
+=======
+            }*/
+            if (string.IsNullOrEmpty(textBox1.Text) == true)
+>>>>>>> 1247ce5bd96a634ed99a5f7fce10d840f65edb35
             {
                 textBox1.Focus();
-                errorProvider1.SetError(this.textBox1, "This section canncon be empty !");
+                errorProvider1.SetError(this.textBox1, "This section cannot be empty !");
             }
             else if (Regex.IsMatch(textBox1.Text, pattern) == false)
             {
@@ -174,7 +179,7 @@ namespace TravelGuide
         {
             if (string.IsNullOrEmpty(textBox2.Text) == true)
             {
-                errorProvider3.SetError(this.textBox2, "This section canncon be empty !");
+                errorProvider3.SetError(this.textBox2, "This section cannot be empty !");
                 textBox1.Focus();
             }
             else
