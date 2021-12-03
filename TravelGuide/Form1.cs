@@ -151,20 +151,19 @@ namespace TravelGuide
             {
                 textBox1.Text = "type your email";
 
-            }*/
-            /*if (string.IsNullOrEmpty(textBox1.Text) == true)
+            }
+           */if (string.IsNullOrEmpty(textBox1.Text) == true)
             {
                 textBox1.Focus();
                 errorProvider1.SetError(this.textBox1, "This section canncon be empty !");
             }
-            else */if (Regex.IsMatch(textBox1.Text, pattern) == false)
+            else if (Regex.IsMatch(textBox1.Text, pattern) == false)
             {
 
                 errorProvider2.SetError(this.textBox1, "Invalid Email !");
                 textBox1.Focus();
             }
             
-
             else
             {
                 errorProvider1.Clear();
@@ -188,7 +187,6 @@ namespace TravelGuide
         {
             this.Close();
         }
-
         private void btnshowpass_Click(object sender, EventArgs e)
         {
             if (textBox2.PasswordChar == '*')
