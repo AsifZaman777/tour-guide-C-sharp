@@ -147,20 +147,18 @@ namespace TravelGuide
 
         private void textBox1_Leave(object sender, EventArgs e)
         {
-           /* if (textBox1.Text == "")
+
+          /* if (string.IsNullOrEmpty(textBox1.Text) == true)
+            {
+                textBox1.Text = "Type your ID";
+                textBox1.ForeColor = Color.Silver;
+            }
+           */ if (string.IsNullOrEmpty(textBox1.Text) == true)
             {
                 textBox1.Text = "type your email";
-
-<<<<<<< HEAD
-            }
-           if (string.IsNullOrEmpty(textBox1.Text) == true)
-=======
-            }*/
-            if (string.IsNullOrEmpty(textBox1.Text) == true)
-//>>>>>>> 1247ce5bd96a634ed99a5f7fce10d840f65edb35
-            {
-                textBox1.Focus();
-                errorProvider1.SetError(this.textBox1, "This section cannot be empty !");
+                textBox1.ForeColor = Color.Silver;
+                //textBox1.Focus();
+                errorProvider1.SetError(this.textBox1, "This section is empty !");
             }
             else if (Regex.IsMatch(textBox1.Text, pattern) == false)
             {
@@ -206,15 +204,22 @@ namespace TravelGuide
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
-            if (textBox1.Text == "type your email") {
+            if (textBox1.Text == "type your email")
+            {
                 textBox1.Text = "";
-               textBox1.ForeColor = Color.Black;
+                textBox1.ForeColor = Color.Black;
             }
+                
         }
 
         private void textBox2_Enter(object sender, EventArgs e)
         {
             errorProvider2.Clear();
+        }
+
+        private void UsercheckBox2_CheckedChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

@@ -48,6 +48,8 @@ namespace TravelGuide
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnexit = new System.Windows.Forms.Button();
+            this.AdminRadioButton = new System.Windows.Forms.RadioButton();
+            this.UserRadioButton = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -59,6 +61,9 @@ namespace TravelGuide
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.btnexit);
+            this.panel1.Controls.Add(this.AdminRadioButton);
+            this.panel1.Controls.Add(this.UserRadioButton);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label4);
@@ -71,10 +76,10 @@ namespace TravelGuide
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(191, 117);
+            this.panel1.Location = new System.Drawing.Point(102, 74);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(597, 588);
+            this.panel1.Size = new System.Drawing.Size(752, 662);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
@@ -148,7 +153,7 @@ namespace TravelGuide
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(189, 48);
-            this.button2.TabIndex = 4;
+            this.button2.TabIndex = 5;
             this.button2.Text = "LOGIN";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -177,7 +182,7 @@ namespace TravelGuide
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(335, 53);
-            this.textBox2.TabIndex = 3;
+            this.textBox2.TabIndex = 4;
             this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
             this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
@@ -191,7 +196,7 @@ namespace TravelGuide
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(335, 52);
-            this.textBox1.TabIndex = 2;
+            this.textBox1.TabIndex = 3;
             this.textBox1.Text = "type your email";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
@@ -229,7 +234,7 @@ namespace TravelGuide
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 48);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 6;
             this.button1.Text = "SIGN UP";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -251,13 +256,39 @@ namespace TravelGuide
             // btnexit
             // 
             this.btnexit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnexit.Location = new System.Drawing.Point(813, 696);
+            this.btnexit.Location = new System.Drawing.Point(626, 601);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(107, 40);
             this.btnexit.TabIndex = 6;
             this.btnexit.Text = "Exit";
             this.btnexit.UseVisualStyleBackColor = false;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
+            // 
+            // AdminRadioButton
+            // 
+            this.AdminRadioButton.AutoSize = true;
+            this.AdminRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.AdminRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminRadioButton.Location = new System.Drawing.Point(626, 369);
+            this.AdminRadioButton.Name = "AdminRadioButton";
+            this.AdminRadioButton.Size = new System.Drawing.Size(98, 28);
+            this.AdminRadioButton.TabIndex = 7;
+            this.AdminRadioButton.TabStop = true;
+            this.AdminRadioButton.Text = "Admin";
+            this.AdminRadioButton.UseVisualStyleBackColor = false;
+            // 
+            // UserRadioButton
+            // 
+            this.UserRadioButton.AutoSize = true;
+            this.UserRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.UserRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserRadioButton.Location = new System.Drawing.Point(626, 416);
+            this.UserRadioButton.Name = "UserRadioButton";
+            this.UserRadioButton.Size = new System.Drawing.Size(81, 28);
+            this.UserRadioButton.TabIndex = 8;
+            this.UserRadioButton.TabStop = true;
+            this.UserRadioButton.Text = "User";
+            this.UserRadioButton.UseVisualStyleBackColor = false;
             // 
             // Login
             // 
@@ -267,7 +298,6 @@ namespace TravelGuide
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(993, 794);
-            this.Controls.Add(this.btnexit);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -308,6 +338,8 @@ namespace TravelGuide
         private System.Windows.Forms.ErrorProvider errorProvider3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnexit;
+        private System.Windows.Forms.RadioButton UserRadioButton;
+        private System.Windows.Forms.RadioButton AdminRadioButton;
     }
 }
 
