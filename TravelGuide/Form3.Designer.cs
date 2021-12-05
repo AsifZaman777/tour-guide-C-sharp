@@ -88,6 +88,7 @@ namespace TravelGuide
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.btnlogout = new System.Windows.Forms.Button();
+            this.PreHistBtn = new System.Windows.Forms.Button();
             this.coxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -912,6 +913,15 @@ namespace TravelGuide
             this.btnlogout.UseVisualStyleBackColor = false;
             this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
             // 
+            // PreHistBtn
+            // 
+            this.PreHistBtn.Location = new System.Drawing.Point(1740, 129);
+            this.PreHistBtn.Name = "PreHistBtn";
+            this.PreHistBtn.Size = new System.Drawing.Size(75, 23);
+            this.PreHistBtn.TabIndex = 14;
+            this.PreHistBtn.Text = "Previous History";
+            this.PreHistBtn.UseVisualStyleBackColor = true;
+            // 
             // homePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -920,6 +930,7 @@ namespace TravelGuide
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1891, 945);
+            this.Controls.Add(this.PreHistBtn);
             this.Controls.Add(this.btnlogout);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -1039,5 +1050,6 @@ namespace TravelGuide
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.Button btnlogout;
+        private System.Windows.Forms.Button PreHistBtn;
     }
 }
