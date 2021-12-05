@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace TravelGuide
 {
-    public partial class Form13 : Form
+    public partial class Hotel_Room : Form
     {
-        public Form13()
+        public Hotel_Room()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hotel ht = new Hotel();
+            this.Hide();
+            ht.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            homePage hp = new homePage();
+            this.Hide();
+            hp.Show();
         }
     }
 }

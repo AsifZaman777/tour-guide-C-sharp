@@ -1,7 +1,7 @@
 ﻿
 namespace TravelGuide
 {
-    partial class Form13
+    partial class Hotel_Room
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,13 @@ namespace TravelGuide
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form13));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hotel_Room));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioRungRang = new System.Windows.Forms.RadioButton();
-            this.radioSajekResort = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioSajekResort = new System.Windows.Forms.RadioButton();
+            this.radioRungRang = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioSayeman = new System.Windows.Forms.RadioButton();
             this.radioCoxToday = new System.Windows.Forms.RadioButton();
@@ -53,12 +53,14 @@ namespace TravelGuide
             this.radioRose = new System.Windows.Forms.RadioButton();
             this.radioHill = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -94,17 +96,17 @@ namespace TravelGuide
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sajek";
             // 
-            // radioRungRang
+            // radioButton2
             // 
-            this.radioRungRang.AutoSize = true;
-            this.radioRungRang.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioRungRang.Location = new System.Drawing.Point(7, 63);
-            this.radioRungRang.Name = "radioRungRang";
-            this.radioRungRang.Size = new System.Drawing.Size(184, 29);
-            this.radioRungRang.TabIndex = 0;
-            this.radioRungRang.TabStop = true;
-            this.radioRungRang.Text = "Hotel RungRang";
-            this.radioRungRang.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(6, 220);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(181, 29);
+            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Sajek Hill Resort";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioSajekResort
             // 
@@ -118,17 +120,18 @@ namespace TravelGuide
             this.radioSajekResort.Text = "Sajek Resort";
             this.radioSajekResort.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // radioRungRang
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(6, 220);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(181, 29);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Sajek Hill Resort";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioRungRang.AutoCheck = false;
+            this.radioRungRang.AutoSize = true;
+            this.radioRungRang.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioRungRang.Location = new System.Drawing.Point(7, 63);
+            this.radioRungRang.Name = "radioRungRang";
+            this.radioRungRang.Size = new System.Drawing.Size(184, 29);
+            this.radioRungRang.TabIndex = 0;
+            this.radioRungRang.TabStop = true;
+            this.radioRungRang.Text = "Hotel RungRang";
+            this.radioRungRang.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -335,12 +338,27 @@ namespace TravelGuide
             this.button1.TabIndex = 5;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form13
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1, 1);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(83, 74);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // Hotel_Room
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1158, 694);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -350,7 +368,7 @@ namespace TravelGuide
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form13";
+            this.Name = "Hotel_Room";
             this.Text = "hotel Booking";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -363,6 +381,7 @@ namespace TravelGuide
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -393,5 +412,6 @@ namespace TravelGuide
         private System.Windows.Forms.RadioButton radioRose;
         private System.Windows.Forms.RadioButton radioHill;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

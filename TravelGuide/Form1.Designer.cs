@@ -32,6 +32,9 @@ namespace TravelGuide
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnexit = new System.Windows.Forms.Button();
+            this.AdminRadioButton = new System.Windows.Forms.RadioButton();
+            this.UserRadioButton = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,9 +50,6 @@ namespace TravelGuide
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.btnexit = new System.Windows.Forms.Button();
-            this.AdminRadioButton = new System.Windows.Forms.RadioButton();
-            this.UserRadioButton = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -82,6 +82,45 @@ namespace TravelGuide
             this.panel1.Size = new System.Drawing.Size(752, 662);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
+            // 
+            // btnexit
+            // 
+            this.btnexit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnexit.Location = new System.Drawing.Point(626, 601);
+            this.btnexit.Name = "btnexit";
+            this.btnexit.Size = new System.Drawing.Size(107, 40);
+            this.btnexit.TabIndex = 6;
+            this.btnexit.Text = "Exit";
+            this.btnexit.UseVisualStyleBackColor = false;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
+            // 
+            // AdminRadioButton
+            // 
+            this.AdminRadioButton.AutoSize = true;
+            this.AdminRadioButton.BackColor = System.Drawing.Color.Transparent;
+            this.AdminRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminRadioButton.ForeColor = System.Drawing.Color.White;
+            this.AdminRadioButton.Location = new System.Drawing.Point(626, 369);
+            this.AdminRadioButton.Name = "AdminRadioButton";
+            this.AdminRadioButton.Size = new System.Drawing.Size(98, 28);
+            this.AdminRadioButton.TabIndex = 7;
+            this.AdminRadioButton.TabStop = true;
+            this.AdminRadioButton.Text = "Admin";
+            this.AdminRadioButton.UseVisualStyleBackColor = false;
+            // 
+            // UserRadioButton
+            // 
+            this.UserRadioButton.AutoSize = true;
+            this.UserRadioButton.BackColor = System.Drawing.Color.Transparent;
+            this.UserRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserRadioButton.ForeColor = System.Drawing.Color.White;
+            this.UserRadioButton.Location = new System.Drawing.Point(626, 416);
+            this.UserRadioButton.Name = "UserRadioButton";
+            this.UserRadioButton.Size = new System.Drawing.Size(81, 28);
+            this.UserRadioButton.TabIndex = 8;
+            this.UserRadioButton.TabStop = true;
+            this.UserRadioButton.Text = "User";
+            this.UserRadioButton.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -252,43 +291,6 @@ namespace TravelGuide
             // errorProvider3
             // 
             this.errorProvider3.ContainerControl = this;
-            // 
-            // btnexit
-            // 
-            this.btnexit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnexit.Location = new System.Drawing.Point(626, 601);
-            this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(107, 40);
-            this.btnexit.TabIndex = 6;
-            this.btnexit.Text = "Exit";
-            this.btnexit.UseVisualStyleBackColor = false;
-            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
-            // 
-            // AdminRadioButton
-            // 
-            this.AdminRadioButton.AutoSize = true;
-            this.AdminRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.AdminRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminRadioButton.Location = new System.Drawing.Point(626, 369);
-            this.AdminRadioButton.Name = "AdminRadioButton";
-            this.AdminRadioButton.Size = new System.Drawing.Size(98, 28);
-            this.AdminRadioButton.TabIndex = 7;
-            this.AdminRadioButton.TabStop = true;
-            this.AdminRadioButton.Text = "Admin";
-            this.AdminRadioButton.UseVisualStyleBackColor = false;
-            // 
-            // UserRadioButton
-            // 
-            this.UserRadioButton.AutoSize = true;
-            this.UserRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.UserRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserRadioButton.Location = new System.Drawing.Point(626, 416);
-            this.UserRadioButton.Name = "UserRadioButton";
-            this.UserRadioButton.Size = new System.Drawing.Size(81, 28);
-            this.UserRadioButton.TabIndex = 8;
-            this.UserRadioButton.TabStop = true;
-            this.UserRadioButton.Text = "User";
-            this.UserRadioButton.UseVisualStyleBackColor = false;
             // 
             // Login
             // 

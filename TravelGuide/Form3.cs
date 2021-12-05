@@ -224,7 +224,7 @@ namespace TravelGuide
 
         private void sajekHotel_Click(object sender, EventArgs e)
         {
-            Hotel hotel = new Hotel();
+             Hotel_Room hotel = new Hotel_Room();
             this.Hide();
             hotel.Show();
            
@@ -232,28 +232,28 @@ namespace TravelGuide
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Hotel hotel = new Hotel();
+            Hotel_Room hotel = new Hotel_Room();
             this.Hide();
             hotel.Show();
         }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            Hotel hotel = new Hotel();
+            Hotel_Room hotel = new Hotel_Room();
             this.Hide();
             hotel.Show();
         }
 
         private void pictureBox22_Click(object sender, EventArgs e)
         {
-            Hotel hotel = new Hotel();
+            Hotel_Room hotel = new Hotel_Room();
             this.Hide();
             hotel.Show();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Hotel hotel = new Hotel();
+            Hotel_Room hotel = new Hotel_Room();
             this.Hide();
             hotel.Show();
         }
@@ -398,11 +398,13 @@ namespace TravelGuide
                 "\n5. Then confirm all the stuffs and get your ticket");
         }
 
-        private void pictureBox25_Click(object sender, EventArgs e)
+       
+
+        private void btnlogout_Click(object sender, EventArgs e)
         {
-            Login loginpage = new Login();
+            Login lg = new Login();
             this.Hide();
-            loginpage.Show();
+            lg.Show();
         }
     }
 }
