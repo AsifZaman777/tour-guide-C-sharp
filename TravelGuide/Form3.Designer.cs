@@ -915,12 +915,13 @@ namespace TravelGuide
             // 
             // PreHistBtn
             // 
-            this.PreHistBtn.Location = new System.Drawing.Point(1740, 129);
+            this.PreHistBtn.Location = new System.Drawing.Point(1740, 106);
             this.PreHistBtn.Name = "PreHistBtn";
-            this.PreHistBtn.Size = new System.Drawing.Size(75, 23);
+            this.PreHistBtn.Size = new System.Drawing.Size(139, 41);
             this.PreHistBtn.TabIndex = 14;
             this.PreHistBtn.Text = "Previous History";
             this.PreHistBtn.UseVisualStyleBackColor = true;
+            this.PreHistBtn.Click += new System.EventHandler(this.PreHistBtn_Click);
             // 
             // homePage
             // 

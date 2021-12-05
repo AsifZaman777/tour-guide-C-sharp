@@ -406,5 +406,12 @@ namespace TravelGuide
             this.Hide();
             lg.Show();
         }
+
+        private void PreHistBtn_Click(object sender, EventArgs e)
+        {
+            HistoryForm hf = new HistoryForm();
+            hf.Show();
+            this.Hide();
+        }
     }
 }

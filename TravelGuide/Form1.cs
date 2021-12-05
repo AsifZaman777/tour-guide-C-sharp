@@ -243,5 +243,17 @@ namespace TravelGuide
         {
             cl = 2;
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            if (cl == 1)
+            {
+                label5.Text = "Hello Admin.";
+            }
+            if (cl == 2)
+            {
+                label5.Text = "Hello User.";
+            }
+        }
     }
 }
