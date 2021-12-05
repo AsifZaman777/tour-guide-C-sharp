@@ -137,6 +137,7 @@ namespace TravelGuide
             this.radioRungRang.TabStop = true;
             this.radioRungRang.Text = "Hotel RungRang";
             this.radioRungRang.UseVisualStyleBackColor = true;
+            this.radioRungRang.CheckedChanged += new System.EventHandler(this.radioRungRang_CheckedChanged);
             // 
             // pictureBox2
             // 
@@ -286,6 +287,7 @@ namespace TravelGuide
             this.radioResort.TabStop = true;
             this.radioResort.Text = "Palace Resort";
             this.radioResort.UseVisualStyleBackColor = true;
+            this.radioResort.CheckedChanged += new System.EventHandler(this.radioResort_CheckedChanged);
             // 
             // groupBox5
             // 
@@ -360,6 +362,7 @@ namespace TravelGuide
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 18;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // button1
             // 
@@ -373,6 +376,7 @@ namespace TravelGuide
             this.button1.TabIndex = 19;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Hotel_Room
             // 

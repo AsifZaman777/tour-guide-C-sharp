@@ -92,3 +92,4 @@ C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form1
 E:\6th Semester\OOP2\Final\Project\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Hotel_Room.resources
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Hotel_Room.resources
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.WelcomeForm.resources
+C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.AdminDashboard.resources

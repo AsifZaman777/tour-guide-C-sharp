@@ -16,5 +16,17 @@ namespace TravelGuide
         {
             InitializeComponent();
         }
+
+        private void SignBtn_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
+            this.Hide();
+        }
+
+        private void btnexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

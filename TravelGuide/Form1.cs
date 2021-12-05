@@ -14,7 +14,7 @@ namespace TravelGuide
     public partial class Login : Form
     {
         string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
-
+        int cl = 0;
         public Login()
         {
             InitializeComponent();
@@ -123,9 +123,19 @@ namespace TravelGuide
 
         private void button2_Click(object sender, EventArgs e)
         {
-            homePage home=new homePage();
-            this.Hide();
-            home.Show();
+            if (cl == 1)
+            {
+                AdminDashboard ad = new AdminDashboard();
+                ad.Show();
+                this.Hide();
+            }
+            if (cl == 2)
+            {
+                homePage home = new homePage();
+                this.Hide();
+                home.Show();
+            }
+          
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -188,7 +198,9 @@ namespace TravelGuide
 
         private void btnexit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            WelcomeForm w = new WelcomeForm();
+            w.Show();
+            this.Hide();
         }
         private void btnshowpass_Click(object sender, EventArgs e)
         {
@@ -220,6 +232,16 @@ namespace TravelGuide
         private void UsercheckBox2_CheckedChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void AdminRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            cl = 1;
+        }
+
+        private void UserRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            cl = 2;
         }
     }
 }

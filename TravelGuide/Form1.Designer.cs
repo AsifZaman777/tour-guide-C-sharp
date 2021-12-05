@@ -50,6 +50,7 @@ namespace TravelGuide
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -61,7 +62,7 @@ namespace TravelGuide
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.btnexit);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.AdminRadioButton);
             this.panel1.Controls.Add(this.UserRadioButton);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -86,11 +87,12 @@ namespace TravelGuide
             // btnexit
             // 
             this.btnexit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnexit.Location = new System.Drawing.Point(626, 601);
+            this.btnexit.Font = new System.Drawing.Font("BankGothic Md BT", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnexit.Location = new System.Drawing.Point(854, 29);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(107, 40);
             this.btnexit.TabIndex = 6;
-            this.btnexit.Text = "Exit";
+            this.btnexit.Text = "Home";
             this.btnexit.UseVisualStyleBackColor = false;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
@@ -107,6 +109,7 @@ namespace TravelGuide
             this.AdminRadioButton.TabStop = true;
             this.AdminRadioButton.Text = "Admin";
             this.AdminRadioButton.UseVisualStyleBackColor = false;
+            this.AdminRadioButton.CheckedChanged += new System.EventHandler(this.AdminRadioButton_CheckedChanged);
             // 
             // UserRadioButton
             // 
@@ -121,6 +124,7 @@ namespace TravelGuide
             this.UserRadioButton.TabStop = true;
             this.UserRadioButton.Text = "User";
             this.UserRadioButton.UseVisualStyleBackColor = false;
+            this.UserRadioButton.CheckedChanged += new System.EventHandler(this.UserRadioButton_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -292,6 +296,15 @@ namespace TravelGuide
             // 
             this.errorProvider3.ContainerControl = this;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(634, 549);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "label5";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -300,6 +313,7 @@ namespace TravelGuide
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(993, 794);
+            this.Controls.Add(this.btnexit);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -342,6 +356,7 @@ namespace TravelGuide
         private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.RadioButton UserRadioButton;
         private System.Windows.Forms.RadioButton AdminRadioButton;
+        private System.Windows.Forms.Label label5;
     }
 }
 
