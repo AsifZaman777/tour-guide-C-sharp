@@ -107,3 +107,10 @@ C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\D
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.HistoryForm.resources
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.WelcomeForm.resources
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.TransChoiceForm.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.AdminDashboard.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.TransChoiceForm.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form12.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Hotel_Room.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.HistoryForm.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.WelcomeForm.resources
+C:\Users\User\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form1.resources

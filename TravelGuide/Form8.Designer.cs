@@ -51,7 +51,7 @@ namespace TravelGuide
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(154, 18);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Rating : 5.00";
+            this.label5.Text = "Rating : 4.70";
             // 
             // label1
             // 
@@ -60,9 +60,9 @@ namespace TravelGuide
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(447, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 33);
+            this.label1.Size = new System.Drawing.Size(160, 33);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Saint Martin";
+            this.label1.Text = "Sunamganj";
             // 
             // button1
             // 
@@ -95,9 +95,9 @@ namespace TravelGuide
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(27, 336);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(391, 33);
+            this.label3.Size = new System.Drawing.Size(385, 33);
             this.label3.TabIndex = 15;
-            this.label3.Text = "Optimal Tour Plan [Four Day]";
+            this.label3.Text = "Optimal Tour Plan [One Day]";
             // 
             // label2
             // 
