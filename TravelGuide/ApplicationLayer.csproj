@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin2.Designer.cs">
+      <DependentUpon>Admin2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin3.Designer.cs">
+      <DependentUpon>Admin3.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BandarbanHotelChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BandarbanHotelChoice.Designer.cs">
+      <DependentUpon>BandarbanHotelChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoxHotelChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoxHotelChoice.Designer.cs">
+      <DependentUpon>CoxHotelChoice.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -69,6 +93,18 @@
     </Compile>
     <Compile Include="BusViewForm.Designer.cs">
       <DependentUpon>BusViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SunamgonjHotelChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunamgonjHotelChoice.Designer.cs">
+      <DependentUpon>SunamgonjHotelChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SylhetHotelChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SylhetHotelChoice.Designer.cs">
+      <DependentUpon>SylhetHotelChoice.cs</DependentUpon>
     </Compile>
     <Compile Include="TransChoiceForm.cs">
       <SubType>Form</SubType>
@@ -150,8 +186,20 @@
     <Compile Include="WelcomeForm.Designer.cs">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin2.resx">
+      <DependentUpon>Admin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin3.resx">
+      <DependentUpon>Admin3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BandarbanHotelChoice.resx">
+      <DependentUpon>BandarbanHotelChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoxHotelChoice.resx">
+      <DependentUpon>CoxHotelChoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -161,6 +209,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BusViewForm.resx">
       <DependentUpon>BusViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SunamgonjHotelChoice.resx">
+      <DependentUpon>SunamgonjHotelChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SylhetHotelChoice.resx">
+      <DependentUpon>SylhetHotelChoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TransChoiceForm.resx">
       <DependentUpon>TransChoiceForm.cs</DependentUpon>
