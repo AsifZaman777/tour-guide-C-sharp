@@ -59,6 +59,8 @@ namespace TravelGuide
             this.InsertButton = new System.Windows.Forms.Button();
             this.SearchButton = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.UserInfoRadioButton = new System.Windows.Forms.RadioButton();
+            this.UserHistoryRadioButton = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -66,12 +68,13 @@ namespace TravelGuide
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1197, 680);
+            this.pictureBox1.Size = new System.Drawing.Size(1201, 684);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Admin
             // 
@@ -80,7 +83,7 @@ namespace TravelGuide
             this.Admin.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Admin.Location = new System.Drawing.Point(517, 9);
             this.Admin.Name = "Admin";
-            this.Admin.Size = new System.Drawing.Size(134, 45);
+            this.Admin.Size = new System.Drawing.Size(130, 44);
             this.Admin.TabIndex = 2;
             this.Admin.Text = "Admin";
             this.Admin.Click += new System.EventHandler(this.Admin_Click);
@@ -88,12 +91,13 @@ namespace TravelGuide
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(46, 88);
+            this.dataGridView1.Location = new System.Drawing.Point(29, 88);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1105, 200);
+            this.dataGridView1.Size = new System.Drawing.Size(1142, 219);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // UsernameLbl
             // 
@@ -102,9 +106,9 @@ namespace TravelGuide
             this.UsernameLbl.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameLbl.Location = new System.Drawing.Point(24, 325);
             this.UsernameLbl.Name = "UsernameLbl";
-            this.UsernameLbl.Size = new System.Drawing.Size(111, 25);
+            this.UsernameLbl.Size = new System.Drawing.Size(67, 25);
             this.UsernameLbl.TabIndex = 4;
-            this.UsernameLbl.Text = "Username ";
+            this.UsernameLbl.Text = "Name";
             // 
             // TransLbl
             // 
@@ -341,12 +345,39 @@ namespace TravelGuide
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(336, 29);
             this.textBox9.TabIndex = 29;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            // 
+            // UserInfoRadioButton
+            // 
+            this.UserInfoRadioButton.AutoSize = true;
+            this.UserInfoRadioButton.Location = new System.Drawing.Point(700, 61);
+            this.UserInfoRadioButton.Name = "UserInfoRadioButton";
+            this.UserInfoRadioButton.Size = new System.Drawing.Size(133, 21);
+            this.UserInfoRadioButton.TabIndex = 30;
+            this.UserInfoRadioButton.TabStop = true;
+            this.UserInfoRadioButton.Text = "User Information";
+            this.UserInfoRadioButton.UseVisualStyleBackColor = true;
+            this.UserInfoRadioButton.CheckedChanged += new System.EventHandler(this.UserInfoRadioButton_CheckedChanged);
+            // 
+            // UserHistoryRadioButton
+            // 
+            this.UserHistoryRadioButton.AutoSize = true;
+            this.UserHistoryRadioButton.Location = new System.Drawing.Point(554, 61);
+            this.UserHistoryRadioButton.Name = "UserHistoryRadioButton";
+            this.UserHistoryRadioButton.Size = new System.Drawing.Size(107, 21);
+            this.UserHistoryRadioButton.TabIndex = 31;
+            this.UserHistoryRadioButton.TabStop = true;
+            this.UserHistoryRadioButton.Text = "User History";
+            this.UserHistoryRadioButton.UseVisualStyleBackColor = true;
+            this.UserHistoryRadioButton.CheckedChanged += new System.EventHandler(this.UserHistoryRadioButton_CheckedChanged);
             // 
             // AdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 679);
+            this.Controls.Add(this.UserHistoryRadioButton);
+            this.Controls.Add(this.UserInfoRadioButton);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.SearchButton);
             this.Controls.Add(this.InsertButton);
@@ -379,6 +410,7 @@ namespace TravelGuide
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdminDashboard";
             this.Text = "AdminDashboard";
+            this.Load += new System.EventHandler(this.AdminDashboard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -417,5 +449,7 @@ namespace TravelGuide
         private System.Windows.Forms.Button InsertButton;
         private System.Windows.Forms.Button SearchButton;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.RadioButton UserInfoRadioButton;
+        private System.Windows.Forms.RadioButton UserHistoryRadioButton;
     }
 }

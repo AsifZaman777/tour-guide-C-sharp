@@ -1,0 +1,8 @@
+﻿CREATE TABLE ADMIN_INFO (
+Admin_id	VARCHAR(20) NOT NULL,
+Admin_name VARCHAR(20) NOT NULL,
+Admin_mail VARCHAR(20) NOT NULL,
+Admin_pass VARCHAR(20) NOT NULL,
+Admin_phone	VARCHAR(20) NOT NULL,
+Admin_gender VARCHAR(20) NOT NULL
+)
