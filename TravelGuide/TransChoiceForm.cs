@@ -19,14 +19,14 @@ namespace TravelGuide
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form10 f10 = new Form10();
+            BusViewForm f10 = new BusViewForm();
             this.Hide();
             f10.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form12 f12 = new Form12();
+            RailViewForm f12 = new RailViewForm();
             this.Hide();
             f12.Show();
         }

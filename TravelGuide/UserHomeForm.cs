@@ -318,63 +318,63 @@ namespace TravelGuide
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Form5 form5=new Form5();
+            sajekViewForm form5=new sajekViewForm();
             this.Hide();
             form5.Show();
         }
 
         private void nothing_Click(object sender, EventArgs e) ///Cox's bazaar pictureBox 
         {
-            Form6 form6=new Form6();
+            coxsViewForm form6=new coxsViewForm();
             this.Hide();
             form6.Show();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            Form7 form7=new Form7();
+            bandViewForm form7=new bandViewForm();
             this.Hide();
             form7.Show();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Form8 form8 = new Form8();
+            sunamViewForm form8 = new sunamViewForm();
             this.Hide();
             form8.Show();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            Form9 form9=new Form9();
+            sylhetViewForm form9=new sylhetViewForm();
             this.Hide();
             form9.Show();
         }
 
         private void sajekBus_Click(object sender, EventArgs e)
         {
-            Form10 f10 = new Form10();
+            BusViewForm f10 = new BusViewForm();
             this.Hide();
             f10.Show();
         }
 
         private void labelBus_Click(object sender, EventArgs e)
         {
-            Form10 f10 = new Form10();
+            BusViewForm f10 = new BusViewForm();
             this.Hide();
             f10.Show();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Form10 f10 = new Form10();
+            BusViewForm f10 = new BusViewForm();
             this.Hide();
             f10.Show();
         }
 
         private void pictureBox19_Click(object sender, EventArgs e)
         {
-            Form10 f10 = new Form10();
+            BusViewForm f10 = new BusViewForm();
             this.Hide();
             f10.Show();
         }

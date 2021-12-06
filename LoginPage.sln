@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login Page", "TravelGuide\Login Page.csproj", "{15B24CAA-B08D-45B0-8D64-2181C2C54E51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLayer", "TravelGuide\ApplicationLayer.csproj", "{15B24CAA-B08D-45B0-8D64-2181C2C54E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
