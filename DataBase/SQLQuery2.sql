@@ -6,3 +6,4 @@ Admin_pass VARCHAR(20) NOT NULL,
 Admin_phone	VARCHAR(20) NOT NULL,
 Admin_gender VARCHAR(20) NOT NULL
 )
+

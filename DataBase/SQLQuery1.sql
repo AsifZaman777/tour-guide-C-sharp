@@ -8,3 +8,4 @@ User_gender VARCHAR(20) NOT NULL
 )
 INSERT INTO USER_INFO (User_id,User_name,User_mail,User_pass,User_phone,User_gender) VALUES ('1001','Asif',	'a@gmail.com',
 'asdad', '01712345678',	'Male')
+INSERT INTO USER_INFO (User_id,User_name,User_mail,User_pass,User_phone,User_gender) VALUES ('1002','Rayeid','r@gmail.com','sdfdsa','01687654321','Male')

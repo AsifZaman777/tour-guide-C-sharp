@@ -106,3 +106,4 @@ C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\D
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form9.resources
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.HistoryForm.resources
 C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.WelcomeForm.resources
+C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.TransChoiceForm.resources

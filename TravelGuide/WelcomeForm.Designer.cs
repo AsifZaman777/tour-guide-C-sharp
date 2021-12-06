@@ -70,6 +70,7 @@ namespace TravelGuide
             this.exitButton.TabIndex = 10;
             this.exitButton.Text = "EXIT";
             this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // WelcomeForm
             // 

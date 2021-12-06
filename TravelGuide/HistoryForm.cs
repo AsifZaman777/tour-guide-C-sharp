@@ -29,5 +29,12 @@ namespace TravelGuide
         {
 
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            homePage h = new homePage();
+            h.Show();
+            this.Hide();
+        }
     }
 }

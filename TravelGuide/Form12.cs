@@ -40,7 +40,7 @@ namespace TravelGuide
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Form11 f11 = new Form11();
+            TransChoiceForm f11 = new TransChoiceForm();
             this.Hide();
             f11.Show();
         }
