@@ -28,5 +28,18 @@ namespace TravelGuide
         {
             this.Close();
         }
+
+        private void SGN_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+
+        }
+
+        private void anikerEx_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

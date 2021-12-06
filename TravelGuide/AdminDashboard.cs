@@ -23,5 +23,10 @@ namespace TravelGuide
             l.Show();
             this.Hide();
         }
+
+        private void Admin_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
