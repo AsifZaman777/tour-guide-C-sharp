@@ -125,7 +125,7 @@ namespace TravelGuide
         {
             if (cl == 1)
             {
-                AdminDashboard ad = new AdminDashboard();
+                Admin1 ad = new Admin1();
                 ad.Show();
                 this.Hide();
             }

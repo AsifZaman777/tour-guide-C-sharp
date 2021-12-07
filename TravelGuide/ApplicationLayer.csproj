@@ -58,11 +58,11 @@
     <Compile Include="Admin3.Designer.cs">
       <DependentUpon>Admin3.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminDashboard.cs">
+    <Compile Include="Admin1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminDashboard.Designer.cs">
-      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    <Compile Include="Admin1.Designer.cs">
+      <DependentUpon>Admin1.cs</DependentUpon>
     </Compile>
     <Compile Include="BandarbanHotelChoice.cs">
       <SubType>Form</SubType>
@@ -76,11 +76,11 @@
     <Compile Include="CoxHotelChoice.Designer.cs">
       <DependentUpon>CoxHotelChoice.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="AdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -192,8 +192,8 @@
     <EmbeddedResource Include="Admin3.resx">
       <DependentUpon>Admin3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminDashboard.resx">
-      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Admin1.resx">
+      <DependentUpon>Admin1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BandarbanHotelChoice.resx">
       <DependentUpon>BandarbanHotelChoice.cs</DependentUpon>
@@ -201,8 +201,8 @@
     <EmbeddedResource Include="CoxHotelChoice.resx">
       <DependentUpon>CoxHotelChoice.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
