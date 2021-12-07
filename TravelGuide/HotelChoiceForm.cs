@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace TravelGuide
 {
-    public partial class Hotel_Room : Form
+    public partial class Sajek_Hotel_Choice : Form
     {
         int cl = 0;
         Hotel ht = new Hotel();
-        public Hotel_Room()
+        public Sajek_Hotel_Choice()
         {
             InitializeComponent();
         }

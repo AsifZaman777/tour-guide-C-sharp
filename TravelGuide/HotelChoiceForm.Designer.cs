@@ -1,7 +1,7 @@
 ﻿
 namespace TravelGuide
 {
-    partial class Hotel_Room
+    partial class Sajek_Hotel_Choice
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace TravelGuide
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hotel_Room));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sajek_Hotel_Choice));
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -157,7 +157,7 @@ namespace TravelGuide
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // Hotel_Room
+            // Sajek_Hotel_Choice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,7 +173,7 @@ namespace TravelGuide
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Hotel_Room";
+            this.Name = "Sajek_Hotel_Choice";
             this.Text = "Sajek hotel Booking";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
