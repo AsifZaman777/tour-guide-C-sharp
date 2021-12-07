@@ -10,3 +10,9 @@ C:\Users\User\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLay
 C:\Users\User\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\User\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Asus\Desktop\tour-guide-C-sharp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Asus\Desktop\tour-guide-C-sharp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Asus\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Asus\Desktop\tour-guide-C-sharp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

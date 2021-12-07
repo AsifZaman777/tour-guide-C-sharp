@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Data.SqlClient;
 
 namespace TravelGuide
 {
@@ -123,19 +124,69 @@ namespace TravelGuide
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (cl == 1)
-            {
-                Admin1 ad = new Admin1();
-                ad.Show();
-                this.Hide();
-            }
             if (cl == 2)
             {
-                homePage home = new homePage();
-                this.Hide();
-                home.Show();
+                if (textBox1.Text != "" && textBox2.Text != "")
+                {
+                    SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+                    string query = "select * from USER_INFO where User_mail = '" + textBox1.Text.Trim() + "' and User_pass = '" + textBox2.Text.Trim() + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
+                    DataTable sdtbl = new DataTable();
+                    sda.Fill(sdtbl);
+                    if (sdtbl.Rows.Count == 1)
+                    {
+                        //DashBoard dashboard = new DashBoard();
+                        this.Hide();
+                        homePage h = new homePage();
+                        h.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Email or password.!\n Try again please.");
+                        textBox1.Clear();
+                        textBox2.Clear();
+
+                        /*Admin1 ad = new Admin1();
+                        ad.Show();
+                        this.Hide();
+                        */
+                    }
+                }
+                if (cl == 1)
+                {
+                    if (textBox1.Text != "" && textBox2.Text != "")
+                    {
+                        SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+                        string query = "select * from ADMIN_INFO where Admin_mail = '" + textBox1.Text.Trim() + "' and Admin_pass = '" + textBox2.Text.Trim() + "'";
+                        SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
+                        DataTable sdtbl = new DataTable();
+                        sda.Fill(sdtbl);
+                        if (sdtbl.Rows.Count == 1)
+                        {
+                            //DashBoard dashboard = new DashBoard();
+                            this.Hide();
+                            homePage h = new homePage();
+                            h.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid Email or password.!\n Try again please.");
+                            textBox1.Clear();
+                            textBox2.Clear();
+
+                            /*Admin1 ad = new Admin1();
+                            ad.Show();
+                            this.Hide();
+                            */
+                        }
+                    }
+
+                    /* homePage home = new homePage();
+                     this.Hide();
+                     home.Show(); */
+                }
+
             }
-          
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

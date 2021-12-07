@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DataAccessLayer;
 
 namespace TravelGuide
 {
@@ -79,17 +80,20 @@ namespace TravelGuide
 
         private void UserInfoRadioButton_CheckedChanged(object sender, EventArgs e)
         {
+
             test = 1;
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-                cmd.CommandText = " SELECT * FROM USER_INFO";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();
+            InitializeComponent();
+            dataGridView1.DataSource = new Database().Userinfotable.Get();
+            /* con.Open();
+             SqlCommand cmd = con.CreateCommand();
+             cmd.CommandType = CommandType.Text;
+                 cmd.CommandText = " SELECT * FROM USER_INFO";
+             cmd.ExecuteNonQuery();
+             DataTable dt = new DataTable();
+             SqlDataAdapter da = new SqlDataAdapter(cmd);
+             da.Fill(dt);
+             dataGridView1.DataSource = dt;
+             con.Close();*/
         }
 
         private void UserHistoryRadioButton_CheckedChanged(object sender, EventArgs e)

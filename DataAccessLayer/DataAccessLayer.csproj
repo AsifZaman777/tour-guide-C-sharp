@@ -41,9 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Entites\admininfo.cs" />
+    <Compile Include="Entites\historyinfo.cs" />
+    <Compile Include="Entites\hotelinfo.cs" />
+    <Compile Include="Entites\Lguideinfo.cs" />
+    <Compile Include="Entites\spotinfo.cs" />
+    <Compile Include="Entites\transportinfo.cs" />
     <Compile Include="Entites\userInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tables\admininfos.cs" />
+    <Compile Include="Tables\historyinfos.cs" />
+    <Compile Include="Tables\hotelinfos.cs" />
+    <Compile Include="Tables\Lguideinfos.cs" />
+    <Compile Include="Tables\spotinfos.cs" />
+    <Compile Include="Tables\transportinfos.cs" />
     <Compile Include="Tables\userInfos.cs" />
   </ItemGroup>
   <ItemGroup />
