@@ -152,40 +152,41 @@ namespace TravelGuide
                         */
                     }
                 }
-                if (cl == 1)
+                
+
+            }
+            if (cl == 1)
+            {
+                if (textBox1.Text != "" && textBox2.Text != "")
                 {
-                    if (textBox1.Text != "" && textBox2.Text != "")
+                    SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+                    string query = "select * from ADMIN_INFO where Admin_mail = '" + textBox1.Text.Trim() + "' and Admin_pass = '" + textBox2.Text.Trim() + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
+                    DataTable sdtbl = new DataTable();
+                    sda.Fill(sdtbl);
+                    if (sdtbl.Rows.Count == 1)
                     {
-                        SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
-                        string query = "select * from ADMIN_INFO where Admin_mail = '" + textBox1.Text.Trim() + "' and Admin_pass = '" + textBox2.Text.Trim() + "'";
-                        SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
-                        DataTable sdtbl = new DataTable();
-                        sda.Fill(sdtbl);
-                        if (sdtbl.Rows.Count == 1)
-                        {
-                            //DashBoard dashboard = new DashBoard();
-                            this.Hide();
-                            homePage h = new homePage();
-                            h.Show();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Invalid Email or password.!\n Try again please.");
-                            textBox1.Clear();
-                            textBox2.Clear();
-
-                            /*Admin1 ad = new Admin1();
-                            ad.Show();
-                            this.Hide();
-                            */
-                        }
+                        //DashBoard dashboard = new DashBoard();
+                        this.Hide();
+                        Admin1 h = new Admin1();
+                        h.Show();
                     }
+                    else
+                    {
+                        MessageBox.Show("Invalid Email or password.!\n Try again please.");
+                        textBox1.Clear();
+                        textBox2.Clear();
 
-                    /* homePage home = new homePage();
-                     this.Hide();
-                     home.Show(); */
+                        /*Admin1 ad = new Admin1();
+                        ad.Show();
+                        this.Hide();
+                        */
+                    }
                 }
 
+                /* homePage home = new homePage();
+                 this.Hide();
+                 home.Show(); */
             }
         }
 

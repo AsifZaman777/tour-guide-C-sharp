@@ -61,8 +61,34 @@ namespace TravelGuide
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.UserInfoRadioButton = new System.Windows.Forms.RadioButton();
             this.UserHistoryRadioButton = new System.Windows.Forms.RadioButton();
+            this.BackButton = new System.Windows.Forms.Button();
+            this.ViewHotelButton = new System.Windows.Forms.Button();
+            this.EnaNONACfareButton = new System.Windows.Forms.Label();
+            this.EnaACButton = new System.Windows.Forms.Label();
+            this.ShyamoliNONACButton = new System.Windows.Forms.Label();
+            this.ShyamoliACButton = new System.Windows.Forms.Label();
+            this.HanifNONACfareButton = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.LogoutBtn = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.HanifACButton = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -371,11 +397,274 @@ namespace TravelGuide
             this.UserHistoryRadioButton.UseVisualStyleBackColor = true;
             this.UserHistoryRadioButton.CheckedChanged += new System.EventHandler(this.UserHistoryRadioButton_CheckedChanged);
             // 
-            // AdminDashboard
+            // BackButton
+            // 
+            this.BackButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.BackButton.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackButton.Location = new System.Drawing.Point(14, 33);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(39, 42);
+            this.BackButton.TabIndex = 62;
+            this.BackButton.Text = "<";
+            this.BackButton.UseVisualStyleBackColor = false;
+            // 
+            // ViewHotelButton
+            // 
+            this.ViewHotelButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.ViewHotelButton.Font = new System.Drawing.Font("Imprint MT Shadow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewHotelButton.Location = new System.Drawing.Point(1046, 37);
+            this.ViewHotelButton.Name = "ViewHotelButton";
+            this.ViewHotelButton.Size = new System.Drawing.Size(118, 57);
+            this.ViewHotelButton.TabIndex = 61;
+            this.ViewHotelButton.Text = "View Hotel Zone";
+            this.ViewHotelButton.UseVisualStyleBackColor = false;
+            this.ViewHotelButton.Click += new System.EventHandler(this.ViewHotelButton_Click);
+            // 
+            // EnaNONACfareButton
+            // 
+            this.EnaNONACfareButton.AutoSize = true;
+            this.EnaNONACfareButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.EnaNONACfareButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnaNONACfareButton.Location = new System.Drawing.Point(26, 606);
+            this.EnaNONACfareButton.Name = "EnaNONACfareButton";
+            this.EnaNONACfareButton.Size = new System.Drawing.Size(217, 27);
+            this.EnaNONACfareButton.TabIndex = 60;
+            this.EnaNONACfareButton.Text = "Ena NON AC Bus Fare";
+            // 
+            // EnaACButton
+            // 
+            this.EnaACButton.AutoSize = true;
+            this.EnaACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.EnaACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnaACButton.Location = new System.Drawing.Point(26, 552);
+            this.EnaACButton.Name = "EnaACButton";
+            this.EnaACButton.Size = new System.Drawing.Size(162, 27);
+            this.EnaACButton.TabIndex = 59;
+            this.EnaACButton.Text = "Ena AC Bus Fare";
+            // 
+            // ShyamoliNONACButton
+            // 
+            this.ShyamoliNONACButton.AutoSize = true;
+            this.ShyamoliNONACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ShyamoliNONACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShyamoliNONACButton.Location = new System.Drawing.Point(26, 500);
+            this.ShyamoliNONACButton.Name = "ShyamoliNONACButton";
+            this.ShyamoliNONACButton.Size = new System.Drawing.Size(266, 27);
+            this.ShyamoliNONACButton.TabIndex = 58;
+            this.ShyamoliNONACButton.Text = "Shyamoli NON AC Bus Fare";
+            // 
+            // ShyamoliACButton
+            // 
+            this.ShyamoliACButton.AutoSize = true;
+            this.ShyamoliACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ShyamoliACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShyamoliACButton.Location = new System.Drawing.Point(26, 451);
+            this.ShyamoliACButton.Name = "ShyamoliACButton";
+            this.ShyamoliACButton.Size = new System.Drawing.Size(211, 27);
+            this.ShyamoliACButton.TabIndex = 57;
+            this.ShyamoliACButton.Text = "Shyamoli AC Bus Fare";
+            // 
+            // HanifNONACfareButton
+            // 
+            this.HanifNONACfareButton.AutoSize = true;
+            this.HanifNONACfareButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.HanifNONACfareButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HanifNONACfareButton.Location = new System.Drawing.Point(26, 400);
+            this.HanifNONACfareButton.Name = "HanifNONACfareButton";
+            this.HanifNONACfareButton.Size = new System.Drawing.Size(234, 27);
+            this.HanifNONACfareButton.TabIndex = 56;
+            this.HanifNONACfareButton.Text = "Hanif NON AC Bus Fare";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(212, 39);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(186, 29);
+            this.textBox10.TabIndex = 55;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.Font = new System.Drawing.Font("Lucida Handwriting", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Location = new System.Drawing.Point(111, 37);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 31);
+            this.button1.TabIndex = 54;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button2.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(764, 436);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(141, 52);
+            this.button2.TabIndex = 53;
+            this.button2.Text = "Insert";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button3.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(764, 522);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(141, 52);
+            this.button3.TabIndex = 52;
+            this.button3.Text = "Delete";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // LogoutBtn
+            // 
+            this.LogoutBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.LogoutBtn.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutBtn.Location = new System.Drawing.Point(1010, 607);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.Size = new System.Drawing.Size(141, 52);
+            this.LogoutBtn.TabIndex = 51;
+            this.LogoutBtn.Text = "Log Out";
+            this.LogoutBtn.UseVisualStyleBackColor = false;
+            this.LogoutBtn.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button5.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(764, 350);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(141, 52);
+            this.button5.TabIndex = 50;
+            this.button5.Text = "Update";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(300, 607);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(296, 22);
+            this.textBox11.TabIndex = 49;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(299, 552);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(296, 22);
+            this.textBox12.TabIndex = 48;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(300, 500);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(296, 22);
+            this.textBox13.TabIndex = 47;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(300, 454);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(296, 22);
+            this.textBox14.TabIndex = 46;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(300, 403);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(296, 22);
+            this.textBox15.TabIndex = 45;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(300, 353);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(296, 22);
+            this.textBox16.TabIndex = 44;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Thistle;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(596, 350);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 25);
+            this.label1.TabIndex = 43;
+            // 
+            // HanifACButton
+            // 
+            this.HanifACButton.AutoSize = true;
+            this.HanifACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.HanifACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HanifACButton.Location = new System.Drawing.Point(26, 350);
+            this.HanifACButton.Name = "HanifACButton";
+            this.HanifACButton.Size = new System.Drawing.Size(179, 27);
+            this.HanifACButton.TabIndex = 42;
+            this.HanifACButton.Text = "Hanif AC Bus Fare";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(31, 113);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(1142, 219);
+            this.dataGridView2.TabIndex = 41;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Gainsboro;
+            this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(435, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(345, 39);
+            this.label2.TabIndex = 40;
+            this.label2.Text = "TRANSPORT ZONE";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, -3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1201, 684);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 39;
+            this.pictureBox2.TabStop = false;
+            // 
+            // Admin1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 679);
+            this.Controls.Add(this.BackButton);
+            this.Controls.Add(this.ViewHotelButton);
+            this.Controls.Add(this.EnaNONACfareButton);
+            this.Controls.Add(this.EnaACButton);
+            this.Controls.Add(this.ShyamoliNONACButton);
+            this.Controls.Add(this.ShyamoliACButton);
+            this.Controls.Add(this.HanifNONACfareButton);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.LogoutBtn);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.HanifACButton);
+            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.UserHistoryRadioButton);
             this.Controls.Add(this.UserInfoRadioButton);
             this.Controls.Add(this.textBox9);
@@ -408,11 +697,13 @@ namespace TravelGuide
             this.Controls.Add(this.Admin);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AdminDashboard";
+            this.Name = "Admin1";
             this.Text = "AdminDashboard";
             this.Load += new System.EventHandler(this.AdminDashboard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -451,5 +742,29 @@ namespace TravelGuide
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.RadioButton UserInfoRadioButton;
         private System.Windows.Forms.RadioButton UserHistoryRadioButton;
+        private System.Windows.Forms.Button BackButton;
+        private System.Windows.Forms.Button ViewHotelButton;
+        private System.Windows.Forms.Label EnaNONACfareButton;
+        private System.Windows.Forms.Label EnaACButton;
+        private System.Windows.Forms.Label ShyamoliNONACButton;
+        private System.Windows.Forms.Label ShyamoliACButton;
+        private System.Windows.Forms.Label HanifNONACfareButton;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button LogoutBtn;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label HanifACButton;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -39,18 +39,24 @@ namespace TravelGuide
 
         }
 
-        private void AdminDashboard_Load(object sender, EventArgs e)
+        public void displayData()
         {
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " SELECT * FROM HOTEL_INFO";
+            cmd.CommandText = " SELECT * FROM TRANSPORT_INFO";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();
+        }
+        private void AdminDashboard_Load(object sender, EventArgs e)
+        {
+
+            displayData();
+          
         }
 
         private void textBox9_TextChanged(object sender, EventArgs e)
@@ -136,6 +142,25 @@ namespace TravelGuide
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            lg.Show();
+            this.Hide();
+        }
+
+        private void ViewHotelButton_Click(object sender, EventArgs e)
+        {
+            Admin2 ad = new Admin2();
+            ad.Show();
+            this.Hide();
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
