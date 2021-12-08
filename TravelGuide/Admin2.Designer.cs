@@ -74,12 +74,12 @@ namespace TravelGuide
             this.button3 = new System.Windows.Forms.Button();
             this.LogoutBtn = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox106 = new System.Windows.Forms.TextBox();
+            this.textBox105 = new System.Windows.Forms.TextBox();
+            this.textBox104 = new System.Windows.Forms.TextBox();
+            this.textBox103 = new System.Windows.Forms.TextBox();
+            this.textBox102 = new System.Windows.Forms.TextBox();
+            this.textBox101 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.HanifACButton = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -410,7 +410,7 @@ namespace TravelGuide
             this.ViewTransButton.Name = "ViewTransButton";
             this.ViewTransButton.Size = new System.Drawing.Size(118, 55);
             this.ViewTransButton.TabIndex = 85;
-            this.ViewTransButton.Text = "View Transports Zone";
+            this.ViewTransButton.Text = "View Hotels Zone";
             this.ViewTransButton.UseVisualStyleBackColor = false;
             this.ViewTransButton.Click += new System.EventHandler(this.ViewTransButton_Click);
             // 
@@ -419,7 +419,7 @@ namespace TravelGuide
             this.EnaNONACfareButton.AutoSize = true;
             this.EnaNONACfareButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.EnaNONACfareButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EnaNONACfareButton.Location = new System.Drawing.Point(26, 606);
+            this.EnaNONACfareButton.Location = new System.Drawing.Point(17, 495);
             this.EnaNONACfareButton.Name = "EnaNONACfareButton";
             this.EnaNONACfareButton.Size = new System.Drawing.Size(217, 27);
             this.EnaNONACfareButton.TabIndex = 84;
@@ -430,7 +430,7 @@ namespace TravelGuide
             this.EnaACButton.AutoSize = true;
             this.EnaACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.EnaACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EnaACButton.Location = new System.Drawing.Point(26, 552);
+            this.EnaACButton.Location = new System.Drawing.Point(35, 449);
             this.EnaACButton.Name = "EnaACButton";
             this.EnaACButton.Size = new System.Drawing.Size(162, 27);
             this.EnaACButton.TabIndex = 83;
@@ -441,7 +441,7 @@ namespace TravelGuide
             this.ShyamoliNONACButton.AutoSize = true;
             this.ShyamoliNONACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ShyamoliNONACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShyamoliNONACButton.Location = new System.Drawing.Point(26, 500);
+            this.ShyamoliNONACButton.Location = new System.Drawing.Point(-6, 602);
             this.ShyamoliNONACButton.Name = "ShyamoliNONACButton";
             this.ShyamoliNONACButton.Size = new System.Drawing.Size(266, 27);
             this.ShyamoliNONACButton.TabIndex = 82;
@@ -452,7 +452,7 @@ namespace TravelGuide
             this.ShyamoliACButton.AutoSize = true;
             this.ShyamoliACButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ShyamoliACButton.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShyamoliACButton.Location = new System.Drawing.Point(26, 451);
+            this.ShyamoliACButton.Location = new System.Drawing.Point(26, 552);
             this.ShyamoliACButton.Name = "ShyamoliACButton";
             this.ShyamoliACButton.Size = new System.Drawing.Size(211, 27);
             this.ShyamoliACButton.TabIndex = 81;
@@ -535,47 +535,47 @@ namespace TravelGuide
             this.button5.Text = "Update";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // textBox11
+            // textBox106
             // 
-            this.textBox11.Location = new System.Drawing.Point(300, 607);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(296, 22);
-            this.textBox11.TabIndex = 73;
+            this.textBox106.Location = new System.Drawing.Point(300, 607);
+            this.textBox106.Name = "textBox106";
+            this.textBox106.Size = new System.Drawing.Size(296, 22);
+            this.textBox106.TabIndex = 73;
             // 
-            // textBox12
+            // textBox105
             // 
-            this.textBox12.Location = new System.Drawing.Point(299, 552);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(296, 22);
-            this.textBox12.TabIndex = 72;
+            this.textBox105.Location = new System.Drawing.Point(299, 552);
+            this.textBox105.Name = "textBox105";
+            this.textBox105.Size = new System.Drawing.Size(296, 22);
+            this.textBox105.TabIndex = 72;
             // 
-            // textBox13
+            // textBox104
             // 
-            this.textBox13.Location = new System.Drawing.Point(300, 500);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(296, 22);
-            this.textBox13.TabIndex = 71;
+            this.textBox104.Location = new System.Drawing.Point(300, 500);
+            this.textBox104.Name = "textBox104";
+            this.textBox104.Size = new System.Drawing.Size(296, 22);
+            this.textBox104.TabIndex = 71;
             // 
-            // textBox14
+            // textBox103
             // 
-            this.textBox14.Location = new System.Drawing.Point(300, 454);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(296, 22);
-            this.textBox14.TabIndex = 70;
+            this.textBox103.Location = new System.Drawing.Point(300, 454);
+            this.textBox103.Name = "textBox103";
+            this.textBox103.Size = new System.Drawing.Size(296, 22);
+            this.textBox103.TabIndex = 70;
             // 
-            // textBox15
+            // textBox102
             // 
-            this.textBox15.Location = new System.Drawing.Point(300, 403);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(296, 22);
-            this.textBox15.TabIndex = 69;
+            this.textBox102.Location = new System.Drawing.Point(300, 403);
+            this.textBox102.Name = "textBox102";
+            this.textBox102.Size = new System.Drawing.Size(296, 22);
+            this.textBox102.TabIndex = 69;
             // 
-            // textBox16
+            // textBox101
             // 
-            this.textBox16.Location = new System.Drawing.Point(300, 353);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(296, 22);
-            this.textBox16.TabIndex = 68;
+            this.textBox101.Location = new System.Drawing.Point(300, 353);
+            this.textBox101.Name = "textBox101";
+            this.textBox101.Size = new System.Drawing.Size(296, 22);
+            this.textBox101.TabIndex = 68;
             // 
             // label1
             // 
@@ -605,8 +605,9 @@ namespace TravelGuide
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1142, 219);
+            this.dataGridView2.Size = new System.Drawing.Size(986, 207);
             this.dataGridView2.TabIndex = 65;
+            this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label2
@@ -616,9 +617,9 @@ namespace TravelGuide
             this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(423, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(262, 39);
+            this.label2.Size = new System.Drawing.Size(362, 39);
             this.label2.TabIndex = 64;
-            this.label2.Text = "HOTELS ZONE";
+            this.label2.Text = "TRANSPORTS ZONE";
             // 
             // pictureBox2
             // 
@@ -648,12 +649,12 @@ namespace TravelGuide
             this.Controls.Add(this.button3);
             this.Controls.Add(this.LogoutBtn);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.textBox106);
+            this.Controls.Add(this.textBox105);
+            this.Controls.Add(this.textBox104);
+            this.Controls.Add(this.textBox103);
+            this.Controls.Add(this.textBox102);
+            this.Controls.Add(this.textBox101);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.HanifACButton);
             this.Controls.Add(this.dataGridView2);
@@ -748,12 +749,12 @@ namespace TravelGuide
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button LogoutBtn;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox106;
+        private System.Windows.Forms.TextBox textBox105;
+        private System.Windows.Forms.TextBox textBox104;
+        private System.Windows.Forms.TextBox textBox103;
+        private System.Windows.Forms.TextBox textBox102;
+        private System.Windows.Forms.TextBox textBox101;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label HanifACButton;
         private System.Windows.Forms.DataGridView dataGridView2;

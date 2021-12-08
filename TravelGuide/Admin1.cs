@@ -44,19 +44,29 @@ namespace TravelGuide
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " SELECT * FROM TRANSPORT_INFO";
+            cmd.CommandText = " SELECT * FROM HOTEL_INFO";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            dataGridView2.DataSource = dt;
             con.Close();
         }
         private void AdminDashboard_Load(object sender, EventArgs e)
         {
 
             displayData();
-          
+            /*con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " SELECT * FROM TRANSPORT_INFO";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close(); */
+
         }
 
         private void textBox9_TextChanged(object sender, EventArgs e)
@@ -87,9 +97,9 @@ namespace TravelGuide
         private void UserInfoRadioButton_CheckedChanged(object sender, EventArgs e)
         {
 
-            test = 1;
+          /*  test = 1;
             InitializeComponent();
-            dataGridView1.DataSource = new Database().Userinfotable.Get();
+            dataGridView1.DataSource = new Database().Userinfotable.Get(); */
             /* con.Open();
              SqlCommand cmd = con.CreateCommand();
              cmd.CommandType = CommandType.Text;
@@ -113,7 +123,7 @@ namespace TravelGuide
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            dataGridView2.DataSource = dt;
             con.Close();
         }
 
@@ -163,6 +173,21 @@ namespace TravelGuide
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = e.RowIndex;
+            DataGridViewRow row = dataGridView2.Rows[index];
+            textBox101.Text = row.Cells[1].Value.ToString();
+            textBox102.Text = row.Cells[2].Value.ToString();
+            textBox103.Text = row.Cells[3].Value.ToString();
+            textBox104.Text = row.Cells[4].Value.ToString();
+            textBox105.Text = row.Cells[5].Value.ToString();
+            textBox106.Text = row.Cells[6].Value.ToString();
+            textBox107.Text = row.Cells[7].Value.ToString();
+            textBox108.Text = row.Cells[8].Value.ToString();
+            textBox109.Text = row.Cells[9].Value.ToString();
         }
     }
 }

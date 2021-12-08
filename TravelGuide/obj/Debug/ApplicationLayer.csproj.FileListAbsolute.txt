@@ -136,3 +136,4 @@ C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\ApplicationLayer.
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\ApplicationLayer.csproj.CopyComplete
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
+C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form1.resources
