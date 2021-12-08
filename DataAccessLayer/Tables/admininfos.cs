@@ -29,7 +29,7 @@ namespace DataAccessLayer.Tables
                   temp.pass = reader.GetString(reader.GetOrdinal("User_pass"));
                   temp.phone = reader.GetString(reader.GetOrdinal("User_phone"));
                   temp.gender = reader.GetString(reader.GetOrdinal("User_gender"));
-                  */
+                  */ 
                 data.Add(temp);
             }
             return data;
