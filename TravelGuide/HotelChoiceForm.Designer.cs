@@ -80,14 +80,13 @@ namespace TravelGuide
             // 
             // radioRungRang
             // 
-            this.radioRungRang.AutoCheck = false;
             this.radioRungRang.AutoSize = true;
+            this.radioRungRang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.radioRungRang.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioRungRang.Location = new System.Drawing.Point(7, 63);
             this.radioRungRang.Name = "radioRungRang";
             this.radioRungRang.Size = new System.Drawing.Size(184, 29);
             this.radioRungRang.TabIndex = 0;
-            this.radioRungRang.TabStop = true;
             this.radioRungRang.Text = "Hotel RungRang";
             this.radioRungRang.UseVisualStyleBackColor = true;
             this.radioRungRang.CheckedChanged += new System.EventHandler(this.radioRungRang_CheckedChanged);

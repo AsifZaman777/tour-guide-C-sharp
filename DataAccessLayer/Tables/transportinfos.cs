@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace DataAccessLayer.Tables
 {
-    class transportinfos
+    public class transportinfos
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
         public List<transportinfo> Get()
@@ -39,7 +39,12 @@ namespace DataAccessLayer.Tables
         }
         void insert()
         {
-            
+            //con.Open();
+            //SqlCommand cmd = new SqlCommand();
+            //cmd.CommandType = System.Data.CommandType.Text;
+            //cmd.CommandText = "INSERT INTO VALUES('" + textBox101.Text + "','" + textBox102.Text + "','" + textBox103.Text + "','"+ textBox104.Text+"','"+ textBox105.Text+"','"+ textBox106.Text)";
+            //cmd.ExecuteNonQuery();
+            //con.Close();
         }
         void delete()
         {

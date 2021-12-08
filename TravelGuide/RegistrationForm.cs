@@ -8,12 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace TravelGuide
 {
     public partial class SignUp : Form
     {
-       SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
+        string name = "^[a-zA-Z0-9]+([._]?[a-zA-Z0-9]+)*$";
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
        //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
 
         public SignUp()
@@ -131,31 +134,46 @@ namespace TravelGuide
 
         private void username_Leave(object sender, EventArgs e)
         {
-            if (username.Text == "")
+            if (Regex.IsMatch(username.Text,name)==false)
             {
-                username.Text = "type your name";
+                username.Focus();
+                username.Text = "type your Name";
                 username.ForeColor = Color.Silver;
+                errorProvider1.SetError(this.username, "Name cannot be empty");
             }
             else
-                password.ForeColor = Color.Black;
+            {
+               
+                username.ForeColor = Color.Black;
+                errorProvider1.Clear();
+
+            }
         }
 
         private void username_Enter(object sender, EventArgs e)
         {
             if (username.Text == "type your name")
+            {
                 username.Text = null;
-            username.ForeColor = Color.Black;
+                username.ForeColor = Color.Black;
+            }
         }
 
         private void email_Leave(object sender, EventArgs e)
         {
-            if (email.Text == "")
+            if (Regex.IsMatch(email.Text, pattern) == false)
             {
+                email.Focus();
                 email.Text = "type your email";
                 email.ForeColor = Color.Silver;
+                errorProvider2.SetError(this.email, "Invalid Email");
+
             }
             else
+            {
                 password.ForeColor = Color.Black;
+                errorProvider2.Clear();
+            }
         }
 
         private void email_Enter(object sender, EventArgs e)
@@ -167,13 +185,18 @@ namespace TravelGuide
 
         private void password_Leave(object sender, EventArgs e)
         {
-            if (password.Text == "")
+            if (string.IsNullOrEmpty(password.Text) == true)
             {
+                password.Focus();
                 password.Text = "type password";
                 password.ForeColor = Color.Silver;
+                errorProvider3.SetError(this.password, "Password cannot be empty");
             }
             else
+            {
                 password.ForeColor = Color.Black;
+                errorProvider3.Clear();
+            }
 
         }
 
@@ -195,13 +218,14 @@ namespace TravelGuide
         {
             if (String.Equals(password.Text, confirm.Text))
             {
-                errorProvider1.Clear();
+                errorProvider4.Clear();
                     password.ForeColor = Color.Black;
 
             }
             else
             {
-                errorProvider1.SetError(this.confirm, "Password Mismatch !");
+                confirm.Focus();
+                errorProvider4.SetError(this.confirm, "Password Mismatch !");
            
             }
                 if (confirm.Text == "")
@@ -211,13 +235,18 @@ namespace TravelGuide
 
         private void textBox4_Leave(object sender, EventArgs e)
         {
-            if (textBox4.Text == "")
+            if (string.IsNullOrEmpty(textBox4.Text) == true)
             {
+                textBox4.Focus();
                 textBox4.Text = "type your phone number";
                 textBox4.ForeColor = Color.Silver;
+                ////errorProvider5.SetError(this.textBox4, "Phone Number cannot be empty");
             }
             else
+            {
                 password.ForeColor = Color.Black;
+                errorProvider5.Clear();
+            }
         }
 
         private void textBox4_Enter(object sender, EventArgs e)

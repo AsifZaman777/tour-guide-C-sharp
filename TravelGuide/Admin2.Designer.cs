@@ -70,8 +70,6 @@ namespace TravelGuide
             this.HanifNONACfareButton = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.LogoutBtn = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox106 = new System.Windows.Forms.TextBox();
@@ -489,29 +487,6 @@ namespace TravelGuide
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(764, 436);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 52);
-            this.button2.TabIndex = 77;
-            this.button2.Text = "Insert";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(764, 522);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 52);
-            this.button3.TabIndex = 76;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
             // LogoutBtn
             // 
             this.LogoutBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
@@ -528,7 +503,7 @@ namespace TravelGuide
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button5.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(764, 350);
+            this.button5.Location = new System.Drawing.Point(751, 442);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(141, 52);
             this.button5.TabIndex = 74;
@@ -645,8 +620,6 @@ namespace TravelGuide
             this.Controls.Add(this.HanifNONACfareButton);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.LogoutBtn);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox106);
@@ -745,8 +718,6 @@ namespace TravelGuide
         private System.Windows.Forms.Label HanifNONACfareButton;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button LogoutBtn;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox106;

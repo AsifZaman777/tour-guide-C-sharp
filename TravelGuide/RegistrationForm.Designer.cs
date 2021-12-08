@@ -56,6 +56,9 @@ namespace TravelGuide
             this.OthersRadioButton = new System.Windows.Forms.RadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider5 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cut1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cut2)).BeginInit();
@@ -65,6 +68,9 @@ namespace TravelGuide
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -171,7 +177,7 @@ namespace TravelGuide
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(307, 20);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -183,7 +189,7 @@ namespace TravelGuide
             this.cut1.BackColor = System.Drawing.Color.IndianRed;
             this.cut1.Image = ((System.Drawing.Image)(resources.GetObject("cut1.Image")));
             this.cut1.Location = new System.Drawing.Point(408, 121);
-            this.cut1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cut1.Margin = new System.Windows.Forms.Padding(4);
             this.cut1.Name = "cut1";
             this.cut1.Size = new System.Drawing.Size(48, 44);
             this.cut1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -223,7 +229,7 @@ namespace TravelGuide
             this.cut2.BackColor = System.Drawing.Color.IndianRed;
             this.cut2.Image = ((System.Drawing.Image)(resources.GetObject("cut2.Image")));
             this.cut2.Location = new System.Drawing.Point(408, 196);
-            this.cut2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cut2.Margin = new System.Windows.Forms.Padding(4);
             this.cut2.Name = "cut2";
             this.cut2.Size = new System.Drawing.Size(48, 44);
             this.cut2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -238,7 +244,7 @@ namespace TravelGuide
             this.cut3.BackColor = System.Drawing.Color.IndianRed;
             this.cut3.Image = ((System.Drawing.Image)(resources.GetObject("cut3.Image")));
             this.cut3.Location = new System.Drawing.Point(408, 271);
-            this.cut3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cut3.Margin = new System.Windows.Forms.Padding(4);
             this.cut3.Name = "cut3";
             this.cut3.Size = new System.Drawing.Size(48, 44);
             this.cut3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -253,7 +259,7 @@ namespace TravelGuide
             this.cut4.BackColor = System.Drawing.Color.IndianRed;
             this.cut4.Image = ((System.Drawing.Image)(resources.GetObject("cut4.Image")));
             this.cut4.Location = new System.Drawing.Point(408, 345);
-            this.cut4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cut4.Margin = new System.Windows.Forms.Padding(4);
             this.cut4.Name = "cut4";
             this.cut4.Size = new System.Drawing.Size(48, 44);
             this.cut4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -268,7 +274,7 @@ namespace TravelGuide
             this.pictureBox2.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(1, -6);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(83, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -365,6 +371,18 @@ namespace TravelGuide
             // 
             this.errorProvider2.ContainerControl = this;
             // 
+            // errorProvider3
+            // 
+            this.errorProvider3.ContainerControl = this;
+            // 
+            // errorProvider4
+            // 
+            this.errorProvider4.ContainerControl = this;
+            // 
+            // errorProvider5
+            // 
+            this.errorProvider5.ContainerControl = this;
+            // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -396,7 +414,7 @@ namespace TravelGuide
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SignUp";
@@ -412,6 +430,9 @@ namespace TravelGuide
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,5 +464,8 @@ namespace TravelGuide
         private System.Windows.Forms.RadioButton OthersRadioButton;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorProvider2;
+        private System.Windows.Forms.ErrorProvider errorProvider3;
+        private System.Windows.Forms.ErrorProvider errorProvider4;
+        private System.Windows.Forms.ErrorProvider errorProvider5;
     }
 }
