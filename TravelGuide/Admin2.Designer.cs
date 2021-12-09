@@ -61,17 +61,16 @@ namespace TravelGuide
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Admin = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BackButton = new System.Windows.Forms.Button();
             this.ViewTransButton = new System.Windows.Forms.Button();
             this.EnaNONACfareButton = new System.Windows.Forms.Label();
             this.EnaACButton = new System.Windows.Forms.Label();
             this.ShyamoliNONACButton = new System.Windows.Forms.Label();
             this.ShyamoliACButton = new System.Windows.Forms.Label();
             this.HanifNONACfareButton = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.LiveSearch = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.LogoutBtn = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.UpdateBtn = new System.Windows.Forms.Button();
             this.textBox106 = new System.Windows.Forms.TextBox();
             this.textBox105 = new System.Windows.Forms.TextBox();
             this.textBox104 = new System.Windows.Forms.TextBox();
@@ -83,6 +82,7 @@ namespace TravelGuide
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -389,17 +389,6 @@ namespace TravelGuide
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             // 
-            // BackButton
-            // 
-            this.BackButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.BackButton.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BackButton.Location = new System.Drawing.Point(12, 25);
-            this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(39, 42);
-            this.BackButton.TabIndex = 86;
-            this.BackButton.Text = "<";
-            this.BackButton.UseVisualStyleBackColor = false;
-            // 
             // ViewTransButton
             // 
             this.ViewTransButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
@@ -467,20 +456,21 @@ namespace TravelGuide
             this.HanifNONACfareButton.TabIndex = 80;
             this.HanifNONACfareButton.Text = "Hanif NON AC Bus Fare";
             // 
-            // textBox10
+            // LiveSearch
             // 
-            this.textBox10.Location = new System.Drawing.Point(212, 33);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(186, 29);
-            this.textBox10.TabIndex = 79;
+            this.LiveSearch.Location = new System.Drawing.Point(124, 25);
+            this.LiveSearch.Multiline = true;
+            this.LiveSearch.Name = "LiveSearch";
+            this.LiveSearch.Size = new System.Drawing.Size(186, 29);
+            this.LiveSearch.TabIndex = 79;
+            this.LiveSearch.TextChanged += new System.EventHandler(this.LiveSearch_TextChanged);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Lucida Handwriting", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Location = new System.Drawing.Point(111, 33);
+            this.button1.Location = new System.Drawing.Point(13, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 31);
             this.button1.TabIndex = 78;
@@ -499,16 +489,17 @@ namespace TravelGuide
             this.LogoutBtn.UseVisualStyleBackColor = false;
             this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
             // 
-            // button5
+            // UpdateBtn
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button5.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(751, 442);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(141, 52);
-            this.button5.TabIndex = 74;
-            this.button5.Text = "Update";
-            this.button5.UseVisualStyleBackColor = false;
+            this.UpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.UpdateBtn.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateBtn.Location = new System.Drawing.Point(751, 442);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Size = new System.Drawing.Size(141, 52);
+            this.UpdateBtn.TabIndex = 74;
+            this.UpdateBtn.Text = "Update";
+            this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // textBox106
             // 
@@ -606,22 +597,30 @@ namespace TravelGuide
             this.pictureBox2.TabIndex = 63;
             this.pictureBox2.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1023, 303);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 17);
+            this.label3.TabIndex = 86;
+            // 
             // Admin2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 679);
-            this.Controls.Add(this.BackButton);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.ViewTransButton);
             this.Controls.Add(this.EnaNONACfareButton);
             this.Controls.Add(this.EnaACButton);
             this.Controls.Add(this.ShyamoliNONACButton);
             this.Controls.Add(this.ShyamoliACButton);
             this.Controls.Add(this.HanifNONACfareButton);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.LiveSearch);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LogoutBtn);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.textBox106);
             this.Controls.Add(this.textBox105);
             this.Controls.Add(this.textBox104);
@@ -709,17 +708,16 @@ namespace TravelGuide
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label Admin;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button ViewTransButton;
         private System.Windows.Forms.Label EnaNONACfareButton;
         private System.Windows.Forms.Label EnaACButton;
         private System.Windows.Forms.Label ShyamoliNONACButton;
         private System.Windows.Forms.Label ShyamoliACButton;
         private System.Windows.Forms.Label HanifNONACfareButton;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox LiveSearch;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button LogoutBtn;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.TextBox textBox106;
         private System.Windows.Forms.TextBox textBox105;
         private System.Windows.Forms.TextBox textBox104;
@@ -731,5 +729,6 @@ namespace TravelGuide
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label3;
     }
 }

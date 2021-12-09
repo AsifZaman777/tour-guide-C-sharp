@@ -34,6 +34,8 @@ namespace TravelGuide
             checkBox2.BackColor = Color.Transparent;
             checkBox3.BackColor = Color.Transparent;
 
+            SunamgonjHotelChoice smob = new SunamgonjHotelChoice();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -51,6 +53,11 @@ namespace TravelGuide
         private void button1_MouseLeave(object sender, EventArgs e)
         {
             button1.BackColor = Color.DeepPink;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

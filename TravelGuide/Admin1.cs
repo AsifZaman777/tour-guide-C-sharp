@@ -179,6 +179,7 @@ namespace TravelGuide
         {
             int index = e.RowIndex;
             DataGridViewRow row = dataGridView2.Rows[index];
+            label3.Text = row.Cells[0].Value.ToString();
             textBox101.Text = row.Cells[1].Value.ToString();
             textBox102.Text = row.Cells[2].Value.ToString();
             textBox103.Text = row.Cells[3].Value.ToString();
@@ -188,6 +189,39 @@ namespace TravelGuide
             textBox107.Text = row.Cells[7].Value.ToString();
             textBox108.Text = row.Cells[8].Value.ToString();
             textBox109.Text = row.Cells[9].Value.ToString();
+        }
+
+        private void LiveSearch_TextChanged(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " SELECT * FROM HOTEL_INFO WHERE SPOT_CODE = '" + LiveSearch.Text + "'";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dataGridView2.DataSource = dt;
+            con.Close();
+            
+           
+        }
+
+        private void UpdateBtn_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " UPDATE HOTEL_INFO SET H1_T1 ='" + textBox101.Text + "', H1_T2 = '" + textBox102.Text + "', H1_T3 = '" + textBox103.Text + "', H2_T1 = '" + textBox104.Text + "', H2_T2 = '" + textBox105.Text + "', H2_T3 = '" + textBox106.Text + "', H3_T1 = '" + textBox104.Text + "', H3_T2 = '" + textBox105.Text + "', H3_T3 = '" + textBox106.Text + "' WHERE SPOT_CODE = '" + label3.Text + "'";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            dataGridView2.DataSource = dt;
+            con.Close();
+            displayData();
+            MessageBox.Show("Successfully Updated !");
+         
         }
     }
 }

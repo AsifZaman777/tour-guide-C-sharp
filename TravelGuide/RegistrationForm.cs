@@ -36,13 +36,12 @@ namespace TravelGuide
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*  con.Open();
+             /* con.Open();
               SqlCommand cmd = con.CreateCommand();
               cmd.CommandType = CommandType.Text;
-              cmd.CommandText = "INSERT INTO INFO VALUES ('" + username.Text + "','" + email.Text + "','" + confirm.Text + "','" + textBox4.Text + "')"; //,'" + textBox4.Text + "')";
+              cmd.CommandText = "INSERT INTO USER_INFO (User_id,User_name,User_mail,User_pass,User_phone,User_gender) VALUES ('" + username.Text + "','" + email.Text + "','" + confirm.Text + "','" + textBox4.Text + "')"; //,'" + textBox4.Text + "')";
               cmd.ExecuteNonQuery();
               con.Close();
-             // displayData();
               MessageBox.Show("Registration Successful !");
               username.Clear();
               password.Clear();
