@@ -78,5 +78,12 @@ namespace TravelGuide
         {
             panel1.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            homePage hp = new homePage();
+            this.Hide();
+            hp.Show();
+        }
     }
 }

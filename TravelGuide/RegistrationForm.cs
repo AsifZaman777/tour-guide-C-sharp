@@ -16,8 +16,8 @@ namespace TravelGuide
     {
         string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
         string name = "^[a-zA-Z0-9]+([._]?[a-zA-Z0-9]+)*$";
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
-       //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied db
+       //Anik db//SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
 
         public SignUp()
         {
@@ -36,31 +36,32 @@ namespace TravelGuide
 
         private void button1_Click(object sender, EventArgs e)
         {
-             /* con.Open();
-              SqlCommand cmd = con.CreateCommand();
-              cmd.CommandType = CommandType.Text;
-              cmd.CommandText = "INSERT INTO USER_INFO (User_id,User_name,User_mail,User_pass,User_phone,User_gender) VALUES ('" + username.Text + "','" + email.Text + "','" + confirm.Text + "','" + textBox4.Text + "')"; //,'" + textBox4.Text + "')";
-              cmd.ExecuteNonQuery();
-              con.Close();
-              MessageBox.Show("Registration Successful !");
-              username.Clear();
-              password.Clear();
-              confirm.Clear();
-              email.Clear();
-              textBox4.Clear();
-              /*if(password.Text==confirm.Text)
-              {
-                  Login login = new Login();
-                  this.Hide();
-                  login.Show();
-              }
-              else
-              {
-                  MessageBox.Show("Password mismatch");
-              } */
-            MessageBox.Show("Under Construction.");
+            /* con.Open();
+             SqlCommand cmd = con.CreateCommand();
+             cmd.CommandType = CommandType.Text;
+             cmd.CommandText = "INSERT INTO USER_INFO (User_id,User_name,User_mail,User_pass,User_phone,User_gender) VALUES ('" + username.Text + "','" + email.Text + "','" + confirm.Text + "','" + textBox4.Text + "')"; //,'" + textBox4.Text + "')";
+             cmd.ExecuteNonQuery();
+             con.Close();
+             MessageBox.Show("Registration Successful !");
+             username.Clear();
+             password.Clear();
+             confirm.Clear();
+             email.Clear();
+             textBox4.Clear();
+             /*if(password.Text==confirm.Text)
+             {
+                 Login login = new Login();
+                 this.Hide();
+                 login.Show();
+             }
+             else
+             {
+                 MessageBox.Show("Password mismatch");
+             } */
+           
 
         }
+       
 
 
 
@@ -239,7 +240,7 @@ namespace TravelGuide
                 textBox4.Focus();
                 textBox4.Text = "type your phone number";
                 textBox4.ForeColor = Color.Silver;
-                ////errorProvider5.SetError(this.textBox4, "Phone Number cannot be empty");
+                //errorProvider5.SetError(this.textBox4, "Phone Number cannot be empty");
             }
             else
             {

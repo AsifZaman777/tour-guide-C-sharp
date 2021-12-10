@@ -445,7 +445,7 @@ namespace TravelGuide
             this.H3T3Lbl.Name = "H3T3Lbl";
             this.H3T3Lbl.Size = new System.Drawing.Size(65, 27);
             this.H3T3Lbl.TabIndex = 58;
-            this.H3T3Lbl.Text = "H3 T3";
+            this.H3T3Lbl.Text = "H2 T3";
             // 
             // H2T2Lbl
             // 
