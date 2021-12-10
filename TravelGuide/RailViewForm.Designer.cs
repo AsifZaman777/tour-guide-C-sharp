@@ -54,11 +54,11 @@ namespace TravelGuide
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Red;
-            this.label1.Font = new System.Drawing.Font("Arial", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(284, 62);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label1.Font = new System.Drawing.Font("BankGothic Lt BT", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(358, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(412, 49);
+            this.label1.Size = new System.Drawing.Size(509, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bangladesh Railway";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -140,6 +140,7 @@ namespace TravelGuide
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(389, 202);
             this.panel1.TabIndex = 7;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label4
             // 
@@ -153,8 +154,8 @@ namespace TravelGuide
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DeepPink;
-            this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button2.Font = new System.Drawing.Font("Elephant", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Cyan;
             this.button2.Location = new System.Drawing.Point(677, 784);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -166,8 +167,8 @@ namespace TravelGuide
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepPink;
-            this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button1.Font = new System.Drawing.Font("Elephant", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Cyan;
             this.button1.Location = new System.Drawing.Point(396, 784);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
@@ -179,8 +180,8 @@ namespace TravelGuide
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.DeepPink;
-            this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button3.Font = new System.Drawing.Font("Elephant", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Cyan;
             this.button3.Location = new System.Drawing.Point(107, 779);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
@@ -203,11 +204,11 @@ namespace TravelGuide
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // Form12
+            // RailViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1378, 856);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.button3);
@@ -221,7 +222,7 @@ namespace TravelGuide
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form12";
+            this.Name = "RailViewForm";
             this.Text = "Form12";
             this.Load += new System.EventHandler(this.Form12_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
