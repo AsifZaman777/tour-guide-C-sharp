@@ -27,7 +27,7 @@ namespace TravelGuide
             pictureBox4.Visible = true;
             pictureBox3.Visible = false;
             panel1.Show();
-            label4.Text = "Subarna Express : 600/- \n Destination: Dhaka to Sylhet";
+            label4.Text = "    Kalni Express. \n Cost : 450/- \n Destination: Dhaka to Sylhet. \n    Distance : 243.3 km ( 6 hour 9 min)";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace TravelGuide
             pictureBox3.Visible = true;
             pictureBox4.Visible = false;
             panel1.Show();
-            label4.Text = "Jamuna Express : 700/- \n Destination: Dhaka to Sylhet";
+            label4.Text = "    Parabot Express. \n Cost : 500/- \n Destination: Dhaka to Sylhet. \n    Distance : 243.3 km ( 6 hour 9 min)";
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -43,6 +43,11 @@ namespace TravelGuide
             TransChoiceForm f11 = new TransChoiceForm();
             this.Hide();
             f11.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

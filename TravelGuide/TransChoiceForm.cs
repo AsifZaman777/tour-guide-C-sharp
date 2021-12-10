@@ -37,5 +37,10 @@ namespace TravelGuide
             this.Hide();
             hp.Show();
         }
+
+        private void TransChoiceForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
