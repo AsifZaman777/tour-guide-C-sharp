@@ -39,9 +39,12 @@ namespace TravelGuide
             this.radioRose = new System.Windows.Forms.RadioButton();
             this.radioHill = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -49,13 +52,14 @@ namespace TravelGuide
             this.button1.BackColor = System.Drawing.Color.Fuchsia;
             this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Cyan;
-            this.button1.Location = new System.Drawing.Point(461, 536);
+            this.button1.Location = new System.Drawing.Point(461, 602);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 59);
             this.button1.TabIndex = 28;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -96,7 +100,7 @@ namespace TravelGuide
             this.groupBox5.Controls.Add(this.radioRose);
             this.groupBox5.Controls.Add(this.radioHill);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(489, 123);
+            this.groupBox5.Location = new System.Drawing.Point(305, 122);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(298, 336);
             this.groupBox5.TabIndex = 29;
@@ -114,6 +118,7 @@ namespace TravelGuide
             this.radioResort.TabStop = true;
             this.radioResort.Text = "Royal Palace Resort";
             this.radioResort.UseVisualStyleBackColor = true;
+            this.radioResort.CheckedChanged += new System.EventHandler(this.radioResort_CheckedChanged);
             // 
             // radioRose
             // 
@@ -126,6 +131,7 @@ namespace TravelGuide
             this.radioRose.TabStop = true;
             this.radioRose.Text = "Sea View Hotel";
             this.radioRose.UseVisualStyleBackColor = true;
+            this.radioRose.CheckedChanged += new System.EventHandler(this.radioRose_CheckedChanged);
             // 
             // radioHill
             // 
@@ -138,6 +144,7 @@ namespace TravelGuide
             this.radioHill.TabStop = true;
             this.radioHill.Text = "Sayemon Resort";
             this.radioHill.UseVisualStyleBackColor = true;
+            this.radioHill.CheckedChanged += new System.EventHandler(this.radioHill_CheckedChanged);
             // 
             // button2
             // 
@@ -150,12 +157,38 @@ namespace TravelGuide
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(726, 182);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(322, 213);
+            this.dataGridView1.TabIndex = 31;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Fuchsia;
+            this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Cyan;
+            this.button3.Location = new System.Drawing.Point(461, 511);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(326, 59);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "Hotel Rooms";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // CoxHotelChoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1187, 694);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.button1);
@@ -169,6 +202,7 @@ namespace TravelGuide
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,5 +219,7 @@ namespace TravelGuide
         private System.Windows.Forms.RadioButton radioRose;
         private System.Windows.Forms.RadioButton radioHill;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button3;
     }
 }

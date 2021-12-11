@@ -28,11 +28,7 @@ namespace TravelGuide
             label2.BackColor=Color.Transparent;
             label3.BackColor = Color.Transparent;
             label4.BackColor = Color.Transparent;
-            label5.BackColor = Color.Transparent;
-
-            checkBox1.BackColor = Color.Transparent;
-            checkBox2.BackColor = Color.Transparent;
-            checkBox3.BackColor = Color.Transparent;
+            
 
             SunamgonjHotelChoice smob = new SunamgonjHotelChoice();
             
@@ -55,9 +51,13 @@ namespace TravelGuide
             button1.BackColor = Color.DeepPink;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
+        
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            homePage hp = new homePage();
+            this.Hide();
+            hp.Show();
         }
     }
 }
