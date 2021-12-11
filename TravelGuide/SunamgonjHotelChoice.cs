@@ -11,13 +11,27 @@ using System.Data.SqlClient;
 
 namespace TravelGuide
 {
+    public delegate void totalSun(int a, int b);
     public partial class SunamgonjHotelChoice : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        int test = 0;
+        int sum = 0;
+        int river_Cost = 2000;
+        int mama_Cost = 4000;
+        int wel_Cost = 5000;
+        int travelGuide = 2000;
+
+
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+
 
         public SunamgonjHotelChoice()
         {
             InitializeComponent();
+        }
+        public void additionSun(int a, int b)
+        {
+            sum = a + b;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -26,7 +40,7 @@ namespace TravelGuide
             h.Show();
             this.Hide();
         }
-        int test = 0;
+    
       public void choice()
         {
         }
@@ -67,6 +81,11 @@ namespace TravelGuide
 
                 // query1 = "SELECT H1_T1 FROM HOTEL_INFO WHERE SPOT_CODE = 'SP3'";
 
+
+                totalSun sun = this.additionSun;
+                sun(river_Cost, travelGuide);
+
+
             }
             else if(test == 2)
             {
@@ -82,6 +101,9 @@ namespace TravelGuide
                 con.Close();
                 //query2 = "SELECT H1_T2 FROM HOTEL_INFO WHERE SPOT_CODE = 'SP3'";
 
+
+                totalSun sun = this.additionSun;
+                sun(mama_Cost, travelGuide);
             }
             else if (test == 3)
             {
@@ -97,6 +119,9 @@ namespace TravelGuide
                 con.Close();
                 // query3 = "SELECT H1_T3 FROM HOTEL_INFO WHERE SPOT_CODE = 'SP3'";
 
+
+                totalSun sun = this.additionSun;
+                sun(wel_Cost, travelGuide);
             }
            /* SqlCommand cmd = new SqlCommand(query1, con);
             SqlCommand cma = new SqlCommand(query2, con);

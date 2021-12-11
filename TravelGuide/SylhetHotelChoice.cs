@@ -10,14 +10,28 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace TravelGuide
 {
+    public delegate void totalSyl(int a, int b);
     public partial class SylhetHotelChoice : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+
         int test = 0;
+        int sum = 0;
+        int track_Cost = 2000;
+        int rose_Cost = 4000;
+        int palace_Cost = 5000;
+        int travelGuide = 2000;
         public SylhetHotelChoice()
         {
             InitializeComponent();
         }
+
+        public void additionSyl(int a, int b)
+        {
+            sum = a + b;
+        }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -57,6 +71,8 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalSyl syl = this.additionSyl;
+                syl(track_Cost, travelGuide);
 
             }
             else if (test == 2)
@@ -73,6 +89,9 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalSyl syl = this.additionSyl;
+                syl(rose_Cost, travelGuide);
+
             }
             else if (test == 3)
             {
@@ -88,7 +107,10 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalSyl syl = this.additionSyl;
+                syl(palace_Cost, travelGuide);
             }
+              MessageBox.Show("Hotel and Local Guide Cost = " + sum + "/-");
         }
 
         private void button3_Click(object sender, EventArgs e)

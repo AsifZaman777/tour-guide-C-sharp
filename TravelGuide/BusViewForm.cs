@@ -10,13 +10,24 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace TravelGuide
 {
+    public delegate void totalBus(int a, int b);
     public partial class BusViewForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
         int test = 0;
+        int ena_Cost = 1300;
+        int hanif_Cost = 1200;
+        int shamoli_Cost = 1600;
+        int tourGuide = 2000;
+        int sum = 0;
         public BusViewForm()
         {
             InitializeComponent();
+        }
+
+        public void additionBus(int a, int b)
+        {
+            sum = a + b;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -24,9 +35,7 @@ namespace TravelGuide
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             pictureBox3.Visible = false;
-            panel1.Show();
-            label5.Text = "Non-AC  : 800/-";
-            label6.Text = "AC  : 1200/-";
+          
            
         }
 
@@ -35,9 +44,7 @@ namespace TravelGuide
             pictureBox3.Visible = true;
             pictureBox2.Visible = false;
             pictureBox1.Visible = false;
-            panel1.Show();
-            label5.Text = "Non-AC : 1000/-";
-            label6.Text = "AC  : 1400/-";
+            
 
 
 
@@ -48,9 +55,7 @@ namespace TravelGuide
             pictureBox1.Visible = true;
             pictureBox2.Visible = false;
             pictureBox3.Visible = false;
-            panel1.Show();
-            label5.Text = "Non-AC  : 900/-";
-            label6.Text = "AC : 1400/-";
+         
 
         }
 
@@ -78,7 +83,7 @@ namespace TravelGuide
 
         private void Form10_Load(object sender, EventArgs e)
         {
-            panel1.Hide();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -95,7 +100,7 @@ namespace TravelGuide
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "SELECT E_ac,E_nac FROM TRANSPORT_INFO WHERE SPOT_CODE = 'SP1'";
+                cmd.CommandText = "SELECT E_ac FROM TRANSPORT_INFO WHERE SPOT_CODE = 'SP1'";
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -103,7 +108,8 @@ namespace TravelGuide
                 dataGridView1.DataSource = dt;
                 con.Close();
 
-
+                totalBus bus = this.additionBus;
+                bus(ena_Cost,tourGuide);
 
             }
             else if (test == 2)
@@ -111,7 +117,7 @@ namespace TravelGuide
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "SELECT H_ac,H_nac FROM TRANSPORT_INFO WHERE SPOT_CODE = 'SP2'";
+                cmd.CommandText = "SELECT H_ac FROM TRANSPORT_INFO WHERE SPOT_CODE = 'SP2'";
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -119,6 +125,8 @@ namespace TravelGuide
                 dataGridView1.DataSource = dt;
                 con.Close();
 
+                totalBus bus = this.additionBus;
+                bus(hanif_Cost, tourGuide);
 
             }
             else if (test == 3)
@@ -126,7 +134,7 @@ namespace TravelGuide
                 con.Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "SELECT S_ac,S_nac FROM TRANSPORT_INFO WHERE SPOT_CODE = 'SP3'";
+                cmd.CommandText = "SELECT S_ac FROM TRANSPORT_INFO WHERE SPOT_CODE = 'SP3'";
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -134,8 +142,11 @@ namespace TravelGuide
                 dataGridView1.DataSource = dt;
                 con.Close();
 
+                totalBus bus = this.additionBus;
+                bus(shamoli_Cost, tourGuide);
 
             }
+            MessageBox.Show("Bus and Local Guide Cost ="+sum+"/-");
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)

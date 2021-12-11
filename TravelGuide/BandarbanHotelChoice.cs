@@ -13,11 +13,21 @@ namespace TravelGuide
 {
     public partial class BandarbanHotelChoice : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        public delegate void totalBan(int a, int b);
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
         int test = 0;
+        int sum = 0;
+        int lit_Cost = 2000;
+        int heaven_Cost = 4000;
+        int nil_Cost = 5000;
+        int travelGuide = 2000;
         public BandarbanHotelChoice()
         {
             InitializeComponent();
+        }
+        public void additionBan(int a, int b)
+        {
+            sum = a + b;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,6 +68,8 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalBan ban = this.additionBan;
+                ban(lit_Cost, travelGuide);
 
             }
             else if (test == 2)
@@ -74,6 +86,9 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalBan ban = this.additionBan;
+                ban(heaven_Cost, travelGuide);
+
             }
             else if (test == 3)
             {
@@ -89,7 +104,12 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalBan ban = this.additionBan;
+                ban(nil_Cost, travelGuide);
+
             }
+
+            MessageBox.Show("Hotel and Local Guide Cost = " + sum + "/-");
         }
 
         private void button3_Click(object sender, EventArgs e)

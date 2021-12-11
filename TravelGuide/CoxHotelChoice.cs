@@ -11,13 +11,24 @@ using System.Data.SqlClient;
 
 namespace TravelGuide
 {
+    public delegate void totalCox(int a, int b);
+
     public partial class CoxHotelChoice : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
         int test = 0;
+        int sum = 0;
+        int saymon_Cost= 2000;
+        int sea_Cost = 4000;
+        int royal_Cost = 5000;
+        int travelGuide = 2000;
         public CoxHotelChoice()
         {
             InitializeComponent();
+        }
+        public void additionCox(int a, int b)
+        {
+            sum = a + b;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -48,6 +59,8 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalCox cox = this.additionCox;
+                cox(saymon_Cost, travelGuide);
 
             }
             else if (test == 2)
@@ -64,6 +77,9 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalCox cox = this.additionCox;
+                cox(sea_Cost, travelGuide);
+
             }
             else if (test == 3)
             {
@@ -79,7 +95,10 @@ namespace TravelGuide
                 con.Close();
 
 
+                totalCox cox = this.additionCox;
+                cox(royal_Cost, travelGuide);
             }
+            MessageBox.Show("Hotel and Local Guide Cost = " + sum + "/-");
         }
 
         private void radioHill_CheckedChanged(object sender, EventArgs e)

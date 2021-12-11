@@ -10,11 +10,24 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace TravelGuide
 {
+    public delegate void total(int a, int b);
     public partial class Sajek_Hotel_Choice : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
         int cl = 0;
         Hotel ht = new Hotel();
+
+        int rungrang_Cost = 1800;
+        int sajekRes_Cost = 4000;
+        int hillRes_Cost=5000;
+        int traveGuide = 2000;
+        int sum = 0;
+
+        public void addition(int a,int b)
+        {
+            sum = a + b;
+        }
+
         public Sajek_Hotel_Choice()
         {
             InitializeComponent();
@@ -55,7 +68,8 @@ namespace TravelGuide
                 dataGridView1.DataSource = dt;
                 con.Close();
 
-
+                total tot = this.addition;
+                tot(rungrang_Cost,traveGuide);
 
             }
             else if (cl == 2)
@@ -71,6 +85,8 @@ namespace TravelGuide
                 dataGridView1.DataSource = dt;
                 con.Close();
 
+                total tot = this.addition;
+                tot(sajekRes_Cost, traveGuide);
 
             }
             else if (cl == 3)
@@ -86,8 +102,11 @@ namespace TravelGuide
                 dataGridView1.DataSource = dt;
                 con.Close();
 
+                total tot = this.addition;
+                tot(hillRes_Cost, traveGuide);
 
             }
+            MessageBox.Show("Minimal Cost(Hotel+travel Guide) = "+sum+"/-");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -123,5 +142,7 @@ namespace TravelGuide
             this.Hide();
             ht.Show();
         }
+
+        
     }
 }
