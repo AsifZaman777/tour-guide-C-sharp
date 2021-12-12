@@ -16,7 +16,8 @@ namespace TravelGuide
     {
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Angela DB
-          SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+          //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+    /* anik*/    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
 
         public Admin2()
         {
@@ -56,7 +57,9 @@ namespace TravelGuide
         }
         private void Admin2_Load(object sender, EventArgs e)
         {
-            displayData();
+            /*InitializeComponent();
+            dataGridView2.DataSource = new Database().Hotelinfotable.Get(); */
+             displayData();
         }
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -90,7 +93,7 @@ namespace TravelGuide
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
             //Anik code
-            /*con.Open();
+            con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = " UPDATE TRANSPORT_INFO SET H_ac ='" + textBox101.Text + "', H_nac= '" + textBox102.Text + "', E_ac= '" + textBox103.Text + "', E_nac= '" + textBox104.Text + "', S_ac= '" + textBox105.Text + "', S_nac= '" + textBox106.Text + "' WHERE SPOT_CODE = '" + label3.Text + "'";
@@ -102,7 +105,7 @@ namespace TravelGuide
             con.Close();
             displayData();
             MessageBox.Show("Successfully Updated !");
-            textBox2.Clear();*/
+            textBox2.Clear();/*
 
             //Rayied code
             con.Open();
@@ -112,7 +115,7 @@ namespace TravelGuide
             cmd.ExecuteNonQuery();
             con.Close();
             displayData();
-            MessageBox.Show("Successfully Updated !");
+            MessageBox.Show("Successfully Updated !"); */
         }
     }
 }

@@ -10,13 +10,14 @@ namespace DataAccessLayer.Tables
 {
     public class transportinfos
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+
         public List<transportinfo> Get()
         {
-           // SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
+            //string query = "create or replace view as h TRANSPORT_INFO";
             string query = "select * from TRANSPORT_INFO";
+            //create or replace view DEPT20 as  select employee_id, first_name as employee, department_id from employees where department_id=20
             SqlCommand cmd = new SqlCommand(query, con);
 
             List<transportinfo> data = new List<transportinfo>();
@@ -25,17 +26,17 @@ namespace DataAccessLayer.Tables
             while (reader.Read())
             {
                 transportinfo temp = new transportinfo();
-                /*  temp.id = reader.GetString(reader.GetOrdinal("User_id"));
-                  temp.name = reader.GetString(reader.GetOrdinal("User_name"));
-                  temp.email = reader.GetString(reader.GetOrdinal("User_mail"));
-                  temp.pass = reader.GetString(reader.GetOrdinal("User_pass"));
-                  temp.phone = reader.GetString(reader.GetOrdinal("User_phone"));
-                  temp.gender = reader.GetString(reader.GetOrdinal("User_gender"));
-                  */
+                temp.h_ac = reader.GetInt32(reader.GetOrdinal("h_ac"));
+                temp.h_nac = reader.GetInt32(reader.GetOrdinal("h_nac"));
+                temp.e_ac = reader.GetInt32(reader.GetOrdinal("e_ac"));
+                temp.e_nac = reader.GetInt32(reader.GetOrdinal("e_nac"));
+                temp.s_ac = reader.GetInt32(reader.GetOrdinal("s_ac"));
+                temp.s_nac = reader.GetInt32(reader.GetOrdinal("s_nac"));
+
                 data.Add(temp);
             }
             return data;
-
+            
         }
         void insert()
         {
@@ -48,11 +49,9 @@ namespace DataAccessLayer.Tables
         }
         void delete()
         {
-            con.Open();
         }
         void update()
         {
-            con.Open();
         }
     }
 }

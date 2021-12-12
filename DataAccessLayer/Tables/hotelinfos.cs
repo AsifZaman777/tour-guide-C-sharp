@@ -8,28 +8,32 @@ using System.Data.SqlClient;
 
 namespace DataAccessLayer.Tables
 {
-    class hotelinfos
+    public class hotelinfos
     {
-        public List<historyinfo> Get()
+        public List<hotelinfo> Get()
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
             string query = "select * from HOTEL_INFO";
             SqlCommand cmd = new SqlCommand(query, con);
 
-            List<historyinfo> data = new List<historyinfo>();
+            List<hotelinfo> data = new List<hotelinfo>();
             SqlDataReader reader = cmd.ExecuteReader();
 
             while (reader.Read())
             {
-                historyinfo temp = new historyinfo();
-                /*  temp.id = reader.GetString(reader.GetOrdinal("User_id"));
-                  temp.name = reader.GetString(reader.GetOrdinal("User_name"));
-                  temp.email = reader.GetString(reader.GetOrdinal("User_mail"));
-                  temp.pass = reader.GetString(reader.GetOrdinal("User_pass"));
-                  temp.phone = reader.GetString(reader.GetOrdinal("User_phone"));
-                  temp.gender = reader.GetString(reader.GetOrdinal("User_gender"));
-                  */
+                hotelinfo temp = new hotelinfo();
+                 temp.h1_t1 = reader.GetInt32(reader.GetOrdinal("h1_t1"));
+                 temp.h1_t2 = reader.GetInt32(reader.GetOrdinal("h1_t2"));
+                 temp.h1_t3 = reader.GetInt32(reader.GetOrdinal("h1_t3"));
+                 temp.h2_t1 = reader.GetInt32(reader.GetOrdinal("h2_t1"));
+                 temp.h2_t2 = reader.GetInt32(reader.GetOrdinal("h2_t2"));
+                 temp.h2_t3 = reader.GetInt32(reader.GetOrdinal("h2_t3"));
+                 temp.h3_t1 = reader.GetInt32(reader.GetOrdinal("h3_t1"));
+                 temp.h3_t2 = reader.GetInt32(reader.GetOrdinal("h3_t2"));
+                 temp.h3_t3 = reader.GetInt32(reader.GetOrdinal("h3_t3"));
+                  
+                  
                 data.Add(temp);
             }
             return data;
