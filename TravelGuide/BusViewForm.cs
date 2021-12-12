@@ -17,9 +17,9 @@ namespace TravelGuide
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Angela DB
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
         int test = 0;
-        int ena_Cost = 1300;
-        int hanif_Cost = 1200;
-        int shamoli_Cost = 1600;
+        int ena_Cost = 1500;
+        int hanif_Cost = 1300;
+        int shamoli_Cost = 1200;
         int tourGuide = 2000;
         int sum = 0;
         public BusViewForm()
