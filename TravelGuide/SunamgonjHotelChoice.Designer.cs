@@ -114,7 +114,7 @@ namespace TravelGuide
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 59);
             this.button1.TabIndex = 34;
-            this.button1.Text = "Confirm";
+            this.button1.Text = "Show info";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -125,9 +125,9 @@ namespace TravelGuide
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(482, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 37);
+            this.label1.Size = new System.Drawing.Size(158, 37);
             this.label1.TabIndex = 31;
-            this.label1.Text = "Hotel Booking";
+            this.label1.Text = "Hotel Info";
             // 
             // pictureBox1
             // 
