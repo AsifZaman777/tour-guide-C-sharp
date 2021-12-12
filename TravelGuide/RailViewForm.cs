@@ -52,7 +52,9 @@ namespace TravelGuide
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            homePage hp = new homePage();
+            this.Hide();
+            hp.Show();
         }
     }
 }
