@@ -44,5 +44,12 @@ namespace TravelGuide
             homepage.Show();
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BusViewForm bb = new BusViewForm();
+            this.Hide();
+            bb.Show();
+        }
     }
 }

@@ -137,3 +137,10 @@ C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\ApplicationLayer.
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.exe
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.pdb
 C:\Users\Asus\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Form1.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Admin2.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Admin1.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.BandarbanHotelChoice.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.CoxHotelChoice.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.SunamgonjHotelChoice.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.SylhetHotelChoice.resources
+C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\TravelGuide\obj\Debug\TravelGuide.Sajek_Hotel_Choice.resources
