@@ -14,9 +14,10 @@ namespace TravelGuide
 {
     public partial class Login : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Angela DB
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//asif
+        //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Angela DB
         // SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
-        string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
+
         int cl = 0;
         public Login()
         {
@@ -129,46 +130,37 @@ namespace TravelGuide
         {
             if (cl == 2)
             {
-                this.Hide();
-                homePage h = new homePage();
-                h.Show();
-               /* if (textBox1.Text != "" && textBox2.Text != "")
+
+                if (textBox1.Text != "" && textBox2.Text != "")
                 {
-                    SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
-                    string query = "select * from USER_INFO where User_mail = '" + textBox1.Text.Trim() + "' and User_pass = '" + textBox2.Text.Trim() + "'";
+                    SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+                    string query = "select * from USER_INFO where User_name = '" + textBox1.Text.Trim() + "' and User_pass = '" + textBox2.Text.Trim() + "'";
                     SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
                     DataTable sdtbl = new DataTable();
                     sda.Fill(sdtbl);
                     if (sdtbl.Rows.Count == 1)
                     {
-                        //DashBoard dashboard = new DashBoard();
+                        homePage home = new homePage();
                         this.Hide();
-                        homePage h = new homePage();
-                        h.Show();
+                        home.Show();
                     }
                     else
                     {
                         MessageBox.Show("Invalid Email or password.!\n Try again please.");
                         textBox1.Clear();
                         textBox2.Clear();
-
-                       
-
                     }
-            
+
                 }
-               */ 
 
             }
             if (cl == 1)
             {
-                this.Hide();
-                Admin1 h = new Admin1();
-                h.Show();
-              /*  if (textBox1.Text != "" && textBox2.Text != "")
+               if (textBox1.Text != "" && textBox2.Text != "")
                 {
-                    SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
-                    string query = "select * from ADMIN_INFO where Admin_mail = '" + textBox1.Text.Trim() + "' and Admin_pass = '" + textBox2.Text.Trim() + "'";
+                SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+
+                    string query = "select * from ADMIN_INFO where Admin_name = '" + textBox1.Text.Trim() + "' and Admin_pass = '" + textBox2.Text.Trim() + "'";
                     SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
                     DataTable sdtbl = new DataTable();
                     sda.Fill(sdtbl);
@@ -176,14 +168,13 @@ namespace TravelGuide
                     
                    if (sdtbl.Rows.Count == 1)
                     {
-                        //DashBoard dashboard = new DashBoard();
                         this.Hide();
-                        Admin1 h = new Admin1();
-                        h.Show();
+                        Admin1 a = new Admin1();
+                        a.Show();
                     }
                     else
                     {
-                        MessageBox.Show("Invalid Email or password.!\n Try again please.");
+                        MessageBox.Show("Invalid Username or password.!\n Try again please.");
                         textBox1.Clear();
                         textBox2.Clear();
 
@@ -192,7 +183,7 @@ namespace TravelGuide
                 
                 }
 
-                */
+                
             }
         }
 
@@ -223,16 +214,10 @@ namespace TravelGuide
             }
            */ if (string.IsNullOrEmpty(textBox1.Text) == true)
             {
-                textBox1.Text = "type your email";
+                textBox1.Text = "type your name";
                 textBox1.ForeColor = Color.Silver;
                 //textBox1.Focus();
                 errorProvider1.SetError(this.textBox1, "This section is empty !");
-            }
-            else if (Regex.IsMatch(textBox1.Text, pattern) == false)
-            {
-
-                errorProvider2.SetError(this.textBox1, "Invalid Email !");
-                textBox1.Focus();
             }
             
             else
@@ -274,7 +259,7 @@ namespace TravelGuide
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
-            if (textBox1.Text == "type your email")
+            if (textBox1.Text == "type your name")
             {
                 textBox1.Text = "";
                 textBox1.ForeColor = Color.Black;

@@ -28,7 +28,7 @@ namespace TravelGuide
             panel3.Hide();
 
             //labels tranparency
-            label3.BackColor = Color.Transparent;
+           
 
             //label 3 picturebox transparent
             pictureBox10.BackColor = Color.Transparent;
@@ -41,7 +41,6 @@ namespace TravelGuide
             pictureBox20.BackColor = Color.Transparent;
 
             panel4.BackColor = Color.FromArgb(100,0,0,0);
-            label13.BackColor = Color.Transparent;
             pictureBox24.BackColor=Color.Transparent;
             label14.BackColor= Color.Transparent;
 
@@ -395,7 +394,7 @@ namespace TravelGuide
                 "\n2. Then select the transport bus package " +
                 "\n3. Then select hotel package as your wish list" +
                 "\n4. You can see restaurants around the area you selected" +
-                "\n5. Then confirm all the stuffs and get your ticket");
+                "\n5. You can see the minimal Cost");
         }
 
        
@@ -409,9 +408,7 @@ namespace TravelGuide
 
         private void PreHistBtn_Click(object sender, EventArgs e)
         {
-            HistoryForm hf = new HistoryForm();
-            hf.Show();
-            this.Hide();
+           //nothing
         }
 
         private void label13_Click(object sender, EventArgs e)
