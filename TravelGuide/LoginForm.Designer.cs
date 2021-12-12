@@ -78,7 +78,7 @@ namespace TravelGuide
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(76, 60);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(564, 538);
             this.panel1.TabIndex = 1;
@@ -102,7 +102,7 @@ namespace TravelGuide
             this.AdminRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminRadioButton.ForeColor = System.Drawing.Color.White;
             this.AdminRadioButton.Location = new System.Drawing.Point(470, 300);
-            this.AdminRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AdminRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.AdminRadioButton.Name = "AdminRadioButton";
             this.AdminRadioButton.Size = new System.Drawing.Size(81, 23);
             this.AdminRadioButton.TabIndex = 7;
@@ -118,7 +118,7 @@ namespace TravelGuide
             this.UserRadioButton.Font = new System.Drawing.Font("MS UI Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserRadioButton.ForeColor = System.Drawing.Color.White;
             this.UserRadioButton.Location = new System.Drawing.Point(470, 338);
-            this.UserRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.UserRadioButton.Name = "UserRadioButton";
             this.UserRadioButton.Size = new System.Drawing.Size(69, 23);
             this.UserRadioButton.TabIndex = 8;
@@ -131,7 +131,7 @@ namespace TravelGuide
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(2, 234);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(46, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,7 +144,7 @@ namespace TravelGuide
             this.checkBox1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.checkBox1.Location = new System.Drawing.Point(61, 282);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(154, 27);
             this.checkBox1.TabIndex = 11;
@@ -194,7 +194,7 @@ namespace TravelGuide
             this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(44, 384);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(142, 39);
             this.button2.TabIndex = 5;
@@ -210,7 +210,7 @@ namespace TravelGuide
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(2, 130);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(46, 43);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -221,7 +221,7 @@ namespace TravelGuide
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(61, 234);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
@@ -236,12 +236,12 @@ namespace TravelGuide
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox1.Location = new System.Drawing.Point(61, 131);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(252, 43);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "type your email";
+            this.textBox1.Text = "type your name";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
@@ -277,7 +277,7 @@ namespace TravelGuide
             this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(272, 384);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 39);
             this.button1.TabIndex = 6;
@@ -292,7 +292,7 @@ namespace TravelGuide
             this.btnexit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexit.Location = new System.Drawing.Point(640, 24);
-            this.btnexit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnexit.Margin = new System.Windows.Forms.Padding(2);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(80, 32);
             this.btnexit.TabIndex = 6;
@@ -324,7 +324,7 @@ namespace TravelGuide
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";

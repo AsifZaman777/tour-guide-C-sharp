@@ -160,12 +160,6 @@
     <Compile Include="sylhetViewForm.Designer.cs">
       <DependentUpon>sylhetViewForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HistoryForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HistoryForm.Designer.cs">
-      <DependentUpon>HistoryForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WelcomeForm.cs">
@@ -230,9 +224,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sylhetViewForm.resx">
       <DependentUpon>sylhetViewForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HistoryForm.resx">
-      <DependentUpon>HistoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -69,7 +69,6 @@ namespace TravelGuide
             this.H1T2Lbl = new System.Windows.Forms.Label();
             this.LiveSearch = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.LogoutBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.textBox106 = new System.Windows.Forms.TextBox();
@@ -100,6 +99,7 @@ namespace TravelGuide
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-1, -4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1201, 684);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,11 +122,12 @@ namespace TravelGuide
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 88);
+            this.dataGridView1.Location = new System.Drawing.Point(29, 89);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1142, 219);
+            this.dataGridView1.Size = new System.Drawing.Size(1141, 219);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -157,7 +158,7 @@ namespace TravelGuide
             this.TransVariantLbl.AutoSize = true;
             this.TransVariantLbl.BackColor = System.Drawing.Color.Thistle;
             this.TransVariantLbl.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TransVariantLbl.Location = new System.Drawing.Point(24, 472);
+            this.TransVariantLbl.Location = new System.Drawing.Point(24, 473);
             this.TransVariantLbl.Name = "TransVariantLbl";
             this.TransVariantLbl.Size = new System.Drawing.Size(172, 25);
             this.TransVariantLbl.TabIndex = 6;
@@ -190,7 +191,7 @@ namespace TravelGuide
             this.CheckinLbl.AutoSize = true;
             this.CheckinLbl.BackColor = System.Drawing.Color.Thistle;
             this.CheckinLbl.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckinLbl.Location = new System.Drawing.Point(594, 325);
+            this.CheckinLbl.Location = new System.Drawing.Point(595, 325);
             this.CheckinLbl.Name = "CheckinLbl";
             this.CheckinLbl.Size = new System.Drawing.Size(92, 25);
             this.CheckinLbl.TabIndex = 9;
@@ -201,7 +202,7 @@ namespace TravelGuide
             this.CheckoutLbl.AutoSize = true;
             this.CheckoutLbl.BackColor = System.Drawing.Color.Thistle;
             this.CheckoutLbl.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckoutLbl.Location = new System.Drawing.Point(594, 391);
+            this.CheckoutLbl.Location = new System.Drawing.Point(595, 391);
             this.CheckoutLbl.Name = "CheckoutLbl";
             this.CheckoutLbl.Size = new System.Drawing.Size(108, 25);
             this.CheckoutLbl.TabIndex = 10;
@@ -223,7 +224,7 @@ namespace TravelGuide
             this.NumPeopleLbl.AutoSize = true;
             this.NumPeopleLbl.BackColor = System.Drawing.Color.Thistle;
             this.NumPeopleLbl.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumPeopleLbl.Location = new System.Drawing.Point(594, 457);
+            this.NumPeopleLbl.Location = new System.Drawing.Point(595, 457);
             this.NumPeopleLbl.Name = "NumPeopleLbl";
             this.NumPeopleLbl.Size = new System.Drawing.Size(181, 25);
             this.NumPeopleLbl.TabIndex = 12;
@@ -243,6 +244,7 @@ namespace TravelGuide
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(239, 325);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(296, 22);
             this.textBox1.TabIndex = 14;
@@ -250,6 +252,7 @@ namespace TravelGuide
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(239, 375);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(296, 22);
             this.textBox2.TabIndex = 15;
@@ -257,6 +260,7 @@ namespace TravelGuide
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(239, 426);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(296, 22);
             this.textBox3.TabIndex = 16;
@@ -264,6 +268,7 @@ namespace TravelGuide
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(239, 475);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(296, 22);
             this.textBox4.TabIndex = 17;
@@ -271,13 +276,15 @@ namespace TravelGuide
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(239, 527);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(296, 22);
             this.textBox5.TabIndex = 18;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(239, 584);
+            this.textBox6.Location = new System.Drawing.Point(239, 583);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(296, 22);
             this.textBox6.TabIndex = 19;
@@ -285,13 +292,15 @@ namespace TravelGuide
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(796, 460);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(296, 22);
             this.textBox7.TabIndex = 20;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(314, 634);
+            this.textBox8.Location = new System.Drawing.Point(315, 634);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(221, 22);
             this.textBox8.TabIndex = 21;
@@ -299,17 +308,19 @@ namespace TravelGuide
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(750, 326);
+            this.dateTimePicker1.Location = new System.Drawing.Point(749, 326);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(342, 29);
+            this.dateTimePicker1.Size = new System.Drawing.Size(343, 29);
             this.dateTimePicker1.TabIndex = 22;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(750, 391);
+            this.dateTimePicker2.Location = new System.Drawing.Point(749, 391);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(342, 29);
+            this.dateTimePicker2.Size = new System.Drawing.Size(343, 29);
             this.dateTimePicker2.TabIndex = 23;
             // 
             // UpdateButton
@@ -317,6 +328,7 @@ namespace TravelGuide
             this.UpdateButton.BackColor = System.Drawing.Color.Yellow;
             this.UpdateButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpdateButton.Location = new System.Drawing.Point(599, 524);
+            this.UpdateButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(141, 52);
             this.UpdateButton.TabIndex = 24;
@@ -327,7 +339,8 @@ namespace TravelGuide
             // 
             this.LogoutButton.BackColor = System.Drawing.Color.Yellow;
             this.LogoutButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogoutButton.Location = new System.Drawing.Point(774, 615);
+            this.LogoutButton.Location = new System.Drawing.Point(773, 615);
+            this.LogoutButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LogoutButton.Name = "LogoutButton";
             this.LogoutButton.Size = new System.Drawing.Size(141, 52);
             this.LogoutButton.TabIndex = 25;
@@ -338,7 +351,8 @@ namespace TravelGuide
             // 
             this.DeleteButton.BackColor = System.Drawing.Color.Yellow;
             this.DeleteButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteButton.Location = new System.Drawing.Point(774, 527);
+            this.DeleteButton.Location = new System.Drawing.Point(773, 527);
+            this.DeleteButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DeleteButton.Name = "DeleteButton";
             this.DeleteButton.Size = new System.Drawing.Size(141, 52);
             this.DeleteButton.TabIndex = 26;
@@ -350,7 +364,8 @@ namespace TravelGuide
             this.InsertButton.BackColor = System.Drawing.Color.Yellow;
             this.InsertButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InsertButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.InsertButton.Location = new System.Drawing.Point(962, 527);
+            this.InsertButton.Location = new System.Drawing.Point(963, 527);
+            this.InsertButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.InsertButton.Name = "InsertButton";
             this.InsertButton.Size = new System.Drawing.Size(141, 52);
             this.InsertButton.TabIndex = 27;
@@ -362,7 +377,8 @@ namespace TravelGuide
             this.SearchButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.SearchButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchButton.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.SearchButton.Location = new System.Drawing.Point(12, 51);
+            this.SearchButton.Location = new System.Drawing.Point(12, 50);
+            this.SearchButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SearchButton.Name = "SearchButton";
             this.SearchButton.Size = new System.Drawing.Size(141, 31);
             this.SearchButton.TabIndex = 28;
@@ -372,6 +388,7 @@ namespace TravelGuide
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(159, 53);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(336, 29);
@@ -381,7 +398,8 @@ namespace TravelGuide
             // UserInfoRadioButton
             // 
             this.UserInfoRadioButton.AutoSize = true;
-            this.UserInfoRadioButton.Location = new System.Drawing.Point(700, 61);
+            this.UserInfoRadioButton.Location = new System.Drawing.Point(700, 62);
+            this.UserInfoRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserInfoRadioButton.Name = "UserInfoRadioButton";
             this.UserInfoRadioButton.Size = new System.Drawing.Size(133, 21);
             this.UserInfoRadioButton.TabIndex = 30;
@@ -393,7 +411,8 @@ namespace TravelGuide
             // UserHistoryRadioButton
             // 
             this.UserHistoryRadioButton.AutoSize = true;
-            this.UserHistoryRadioButton.Location = new System.Drawing.Point(554, 61);
+            this.UserHistoryRadioButton.Location = new System.Drawing.Point(555, 62);
+            this.UserHistoryRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserHistoryRadioButton.Name = "UserHistoryRadioButton";
             this.UserHistoryRadioButton.Size = new System.Drawing.Size(107, 21);
             this.UserHistoryRadioButton.TabIndex = 31;
@@ -407,8 +426,9 @@ namespace TravelGuide
             this.ViewTransportsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ViewTransportsButton.Font = new System.Drawing.Font("Imprint MT Shadow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewTransportsButton.Location = new System.Drawing.Point(1053, 18);
+            this.ViewTransportsButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ViewTransportsButton.Name = "ViewTransportsButton";
-            this.ViewTransportsButton.Size = new System.Drawing.Size(118, 57);
+            this.ViewTransportsButton.Size = new System.Drawing.Size(117, 57);
             this.ViewTransportsButton.TabIndex = 61;
             this.ViewTransportsButton.Text = "View Transports Zone";
             this.ViewTransportsButton.UseVisualStyleBackColor = false;
@@ -452,7 +472,7 @@ namespace TravelGuide
             this.H2T2Lbl.AutoSize = true;
             this.H2T2Lbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.H2T2Lbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H2T2Lbl.Location = new System.Drawing.Point(354, 426);
+            this.H2T2Lbl.Location = new System.Drawing.Point(355, 426);
             this.H2T2Lbl.Name = "H2T2Lbl";
             this.H2T2Lbl.Size = new System.Drawing.Size(65, 27);
             this.H2T2Lbl.TabIndex = 57;
@@ -463,7 +483,7 @@ namespace TravelGuide
             this.H1T2Lbl.AutoSize = true;
             this.H1T2Lbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.H1T2Lbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H1T2Lbl.Location = new System.Drawing.Point(354, 355);
+            this.H1T2Lbl.Location = new System.Drawing.Point(355, 354);
             this.H1T2Lbl.Name = "H1T2Lbl";
             this.H1T2Lbl.Size = new System.Drawing.Size(65, 27);
             this.H1T2Lbl.TabIndex = 56;
@@ -471,10 +491,11 @@ namespace TravelGuide
             // 
             // LiveSearch
             // 
-            this.LiveSearch.Location = new System.Drawing.Point(132, 14);
+            this.LiveSearch.Location = new System.Drawing.Point(141, 9);
+            this.LiveSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LiveSearch.Multiline = true;
             this.LiveSearch.Name = "LiveSearch";
-            this.LiveSearch.Size = new System.Drawing.Size(186, 29);
+            this.LiveSearch.Size = new System.Drawing.Size(185, 38);
             this.LiveSearch.TabIndex = 55;
             this.LiveSearch.TextChanged += new System.EventHandler(this.LiveSearch_TextChanged);
             // 
@@ -484,30 +505,21 @@ namespace TravelGuide
             this.button1.Font = new System.Drawing.Font("Lucida Handwriting", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Location = new System.Drawing.Point(12, 14);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 31);
+            this.button1.Size = new System.Drawing.Size(123, 31);
             this.button1.TabIndex = 54;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(561, 572);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 52);
-            this.button3.TabIndex = 52;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // LogoutBtn
             // 
             this.LogoutBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.LogoutBtn.Font = new System.Drawing.Font("Imprint MT Shadow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogoutBtn.Location = new System.Drawing.Point(1053, 619);
+            this.LogoutBtn.Location = new System.Drawing.Point(1053, 615);
+            this.LogoutBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LogoutBtn.Name = "LogoutBtn";
-            this.LogoutBtn.Size = new System.Drawing.Size(100, 37);
+            this.LogoutBtn.Size = new System.Drawing.Size(135, 52);
             this.LogoutBtn.TabIndex = 51;
             this.LogoutBtn.Text = "Log Out";
             this.LogoutBtn.UseVisualStyleBackColor = false;
@@ -517,7 +529,8 @@ namespace TravelGuide
             // 
             this.UpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.UpdateBtn.Font = new System.Drawing.Font("High Tower Text", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UpdateBtn.Location = new System.Drawing.Point(257, 576);
+            this.UpdateBtn.Location = new System.Drawing.Point(720, 604);
+            this.UpdateBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UpdateBtn.Name = "UpdateBtn";
             this.UpdateBtn.Size = new System.Drawing.Size(141, 52);
             this.UpdateBtn.TabIndex = 50;
@@ -528,6 +541,7 @@ namespace TravelGuide
             // textBox106
             // 
             this.textBox106.Location = new System.Drawing.Point(820, 436);
+            this.textBox106.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox106.Name = "textBox106";
             this.textBox106.Size = new System.Drawing.Size(195, 22);
             this.textBox106.TabIndex = 49;
@@ -535,6 +549,7 @@ namespace TravelGuide
             // textBox105
             // 
             this.textBox105.Location = new System.Drawing.Point(452, 431);
+            this.textBox105.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox105.Name = "textBox105";
             this.textBox105.Size = new System.Drawing.Size(196, 22);
             this.textBox105.TabIndex = 48;
@@ -542,6 +557,7 @@ namespace TravelGuide
             // textBox104
             // 
             this.textBox104.Location = new System.Drawing.Point(132, 431);
+            this.textBox104.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox104.Name = "textBox104";
             this.textBox104.Size = new System.Drawing.Size(195, 22);
             this.textBox104.TabIndex = 47;
@@ -549,20 +565,23 @@ namespace TravelGuide
             // textBox103
             // 
             this.textBox103.Location = new System.Drawing.Point(820, 363);
+            this.textBox103.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox103.Name = "textBox103";
             this.textBox103.Size = new System.Drawing.Size(195, 22);
             this.textBox103.TabIndex = 46;
             // 
             // textBox102
             // 
-            this.textBox102.Location = new System.Drawing.Point(452, 360);
+            this.textBox102.Location = new System.Drawing.Point(452, 359);
+            this.textBox102.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox102.Name = "textBox102";
             this.textBox102.Size = new System.Drawing.Size(195, 22);
             this.textBox102.TabIndex = 45;
             // 
             // textBox101
             // 
-            this.textBox101.Location = new System.Drawing.Point(132, 355);
+            this.textBox101.Location = new System.Drawing.Point(132, 354);
+            this.textBox101.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox101.Name = "textBox101";
             this.textBox101.Size = new System.Drawing.Size(195, 22);
             this.textBox101.TabIndex = 44;
@@ -582,7 +601,7 @@ namespace TravelGuide
             this.H1T1LBL.AutoSize = true;
             this.H1T1LBL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.H1T1LBL.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H1T1LBL.Location = new System.Drawing.Point(26, 350);
+            this.H1T1LBL.Location = new System.Drawing.Point(27, 350);
             this.H1T1LBL.Name = "H1T1LBL";
             this.H1T1LBL.Size = new System.Drawing.Size(65, 27);
             this.H1T1LBL.TabIndex = 42;
@@ -591,7 +610,8 @@ namespace TravelGuide
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(31, 93);
+            this.dataGridView2.Location = new System.Drawing.Point(31, 94);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
@@ -614,7 +634,8 @@ namespace TravelGuide
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, -3);
+            this.pictureBox2.Location = new System.Drawing.Point(0, -2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1201, 684);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -637,7 +658,7 @@ namespace TravelGuide
             this.H3T2Lbl.AutoSize = true;
             this.H3T2Lbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.H3T2Lbl.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H3T2Lbl.Location = new System.Drawing.Point(354, 500);
+            this.H3T2Lbl.Location = new System.Drawing.Point(355, 500);
             this.H3T2Lbl.Name = "H3T2Lbl";
             this.H3T2Lbl.Size = new System.Drawing.Size(65, 27);
             this.H3T2Lbl.TabIndex = 64;
@@ -657,6 +678,7 @@ namespace TravelGuide
             // textBox107
             // 
             this.textBox107.Location = new System.Drawing.Point(132, 500);
+            this.textBox107.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox107.Name = "textBox107";
             this.textBox107.Size = new System.Drawing.Size(195, 22);
             this.textBox107.TabIndex = 66;
@@ -664,6 +686,7 @@ namespace TravelGuide
             // textBox108
             // 
             this.textBox108.Location = new System.Drawing.Point(453, 505);
+            this.textBox108.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox108.Name = "textBox108";
             this.textBox108.Size = new System.Drawing.Size(195, 22);
             this.textBox108.TabIndex = 67;
@@ -671,6 +694,7 @@ namespace TravelGuide
             // textBox109
             // 
             this.textBox109.Location = new System.Drawing.Point(820, 505);
+            this.textBox109.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox109.Name = "textBox109";
             this.textBox109.Size = new System.Drawing.Size(195, 22);
             this.textBox109.TabIndex = 68;
@@ -704,7 +728,6 @@ namespace TravelGuide
             this.Controls.Add(this.H1T2Lbl);
             this.Controls.Add(this.LiveSearch);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.LogoutBtn);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.textBox106);
@@ -750,6 +773,7 @@ namespace TravelGuide
             this.Controls.Add(this.Admin);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Admin1";
             this.Text = "AdminDashboard";
             this.Load += new System.EventHandler(this.AdminDashboard_Load);
@@ -803,7 +827,6 @@ namespace TravelGuide
         private System.Windows.Forms.Label H1T2Lbl;
         private System.Windows.Forms.TextBox LiveSearch;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button LogoutBtn;
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.TextBox textBox106;

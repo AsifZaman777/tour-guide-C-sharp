@@ -19,7 +19,7 @@ namespace TravelGuide
         string name = "^[a-zA-Z0-9]+([._]?[a-zA-Z0-9]+)*$";
         // SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
         //Anik db//SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
-        // Asif Vai SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+       SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
         public SignUp()
         {
             InitializeComponent();
@@ -37,29 +37,29 @@ namespace TravelGuide
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /* con.Open();
-             SqlCommand cmd = con.CreateCommand();
-             cmd.CommandType = CommandType.Text;
-             cmd.CommandText = "INSERT INTO USER_INFO (User_id,User_name,User_mail,User_pass,User_phone,User_gender) VALUES ('" + username.Text + "','" + email.Text + "','" + confirm.Text + "','" + textBox4.Text + "')"; //,'" + textBox4.Text + "')";
-             cmd.ExecuteNonQuery();
-             con.Close();
-             MessageBox.Show("Registration Successful !");
-             username.Clear();
-             password.Clear();
-             confirm.Clear();
-             email.Clear();
-             textBox4.Clear();
-             /*if(password.Text==confirm.Text)
-             {
-                 Login login = new Login();
-                 this.Hide();
-                 login.Show();
-             }
-             else
-             {
-                 MessageBox.Show("Password mismatch");
-             } */
-           
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "INSERT INTO USER_INFO (User_name,User_mail,User_pass,User_phone) VALUES ('" + username.Text + "','" + email.Text + "','" + password.Text + "','" + textBox4.Text + "')";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Registration Successful !");
+            username.Clear();
+            password.Clear();
+            confirm.Clear();
+            email.Clear();
+            textBox4.Clear();
+            if (password.Text == confirm.Text)
+            {
+                Login login = new Login();
+                this.Hide();
+                login.Show();
+            }
+            else
+            {
+                MessageBox.Show("Password mismatch");
+            }
+
 
         }
        
