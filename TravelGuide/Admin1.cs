@@ -18,6 +18,7 @@ namespace TravelGuide
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Angela DB
           SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+          //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
 
         public Admin1()
         {
@@ -212,7 +213,7 @@ namespace TravelGuide
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
             //Anik code
-            /*con.Open();
+            con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = " UPDATE HOTEL_INFO SET H1_T1 ='" + textBox101.Text + "', H1_T2 = '" + textBox102.Text + "', H1_T3 = '" + textBox103.Text + "', H2_T1 = '" + textBox104.Text + "', H2_T2 = '" + textBox105.Text + "', H2_T3 = '" + textBox106.Text + "', H3_T1 = '" + textBox104.Text + "', H3_T2 = '" + textBox105.Text + "', H3_T3 = '" + textBox106.Text + "' WHERE SPOT_CODE = '" + label3.Text + "'";
@@ -223,7 +224,7 @@ namespace TravelGuide
             dataGridView2.DataSource = dt;
             con.Close();
             displayData();
-            MessageBox.Show("Successfully Updated !");*/
+            MessageBox.Show("Successfully Updated !");/*
 
             //Rayied code
             con.Open();
@@ -234,6 +235,11 @@ namespace TravelGuide
             con.Close();
             displayData();
             MessageBox.Show("Successfully Updated !");
+            */
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
 
         }
     }

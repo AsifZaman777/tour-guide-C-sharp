@@ -19,7 +19,7 @@ namespace TravelGuide
         int cl = 0;
         Hotel ht = new Hotel();
 
-        int rungrang_Cost = 1800;
+        int rungrang_Cost = 2000;
         int sajekRes_Cost = 4000;
         int hillRes_Cost=5000;
         int traveGuide = 2000;

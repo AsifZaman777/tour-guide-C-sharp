@@ -16,7 +16,7 @@ namespace TravelGuide
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//asif
         //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Romona Sarker\OneDrive - American International University-Bangladesh\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Angela DB
-        // SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
+        //SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");//Rayied DB
 
         int cl = 0;
         public Login()
@@ -133,9 +133,9 @@ namespace TravelGuide
 
                 if (textBox1.Text != "" && textBox2.Text != "")
                 {
-                    SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+                   // SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
                     string query = "select * from USER_INFO where User_name = '" + textBox1.Text.Trim() + "' and User_pass = '" + textBox2.Text.Trim() + "'";
-                    SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
+                    SqlDataAdapter sda = new SqlDataAdapter(query, con);
                     DataTable sdtbl = new DataTable();
                     sda.Fill(sdtbl);
                     if (sdtbl.Rows.Count == 1)
@@ -158,10 +158,10 @@ namespace TravelGuide
             {
                if (textBox1.Text != "" && textBox2.Text != "")
                 {
-                SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
+                ///SqlConnection sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Desktop\tour-guide-C-sharp\P_DB.mdf;Integrated Security=True;Connect Timeout=30");
 
                     string query = "select * from ADMIN_INFO where Admin_name = '" + textBox1.Text.Trim() + "' and Admin_pass = '" + textBox2.Text.Trim() + "'";
-                    SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
+                    SqlDataAdapter sda = new SqlDataAdapter(query, con);
                     DataTable sdtbl = new DataTable();
                     sda.Fill(sdtbl);
 
